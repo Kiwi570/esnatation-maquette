@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5FAFB">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -135,17 +135,28 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="plan" data-visuel>
       <p class="plan-note">Plan indicatif</p>
       <svg viewBox="0 0 600 400" role="img" aria-label="Plan indicatif : Piscine du Verrney, Puidoux" data-fx="trace">
-        <path d="M0 300 C 120 270, 220 320, 330 300 S 520 250, 600 280 V 400 H 0 Z" fill="#E3F1F4"/>
-        <path d="M0 300 C 120 270, 220 320, 330 300 S 520 250, 600 280" fill="none" stroke="#0A62A8" stroke-width="2.5" data-fx-trait/>
-        <path d="M40 250 C 90 230, 140 236, 190 214 M60 214 C 120 196, 170 196, 230 176 M90 178 C 150 160, 200 158, 260 140" fill="none" stroke="#7aa35a" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 7" data-fx-trait/>
-        <path d="M250 262 C 300 230, 340 190, 395 120" fill="none" stroke="#0B2230" stroke-width="2" stroke-dasharray="6 6" data-fx-trait/>
-        <circle cx="250" cy="262" r="9" fill="#0B2230"/>
-        <circle cx="395" cy="120" r="12" fill="#E5332A" data-repere/>
-        <circle cx="395" cy="120" r="24" fill="none" stroke="#E5332A" stroke-width="2" opacity=".5"/>
+        <path d="M0 292 C 110 268, 220 312, 330 292 S 520 246, 600 272 V 400 H 0 Z" fill="#E3F1F4"/>
+        <g data-vague-lac fill="none" stroke-linecap="round">
+          <path class="lac-vague" d="M0 292 C 110 268, 220 312, 330 292 S 520 246, 600 272" stroke="#0A62A8" stroke-width="2.5"/>
+          <path class="lac-vague lac-vague--2" d="M20 330 C 120 318, 220 342, 330 328 S 520 300, 590 312" stroke="#7fb6dc" stroke-width="2"/>
+          <path class="lac-vague lac-vague--3" d="M60 362 C 150 352, 240 372, 340 360 S 500 340, 570 348" stroke="#a9cfe7" stroke-width="2"/>
+        </g>
+        <g fill="none" stroke="#86ad62" stroke-width="2.5" stroke-linecap="round">
+          <path d="M40 252 C 120 232, 190 238, 250 216" data-fx-trait/>
+          <path d="M58 222 C 130 204, 196 206, 262 184" data-fx-trait/>
+          <path d="M80 192 C 146 176, 206 176, 274 152" data-fx-trait/>
+          <path d="M104 162 C 166 148, 220 146, 286 122" data-fx-trait/>
+        </g>
+        <path d="M250 262 C 300 236, 340 190, 395 120" fill="none" stroke="#0B2230" stroke-width="2.5" stroke-dasharray="7 7" data-fx-trait/>
+        <circle cx="250" cy="262" r="8" fill="#0B2230"/>
+        <circle class="plan-onde" cx="395" cy="120" r="14" fill="none" stroke="#D42A21" stroke-width="2"/>
+        <circle class="plan-onde plan-onde--2" cx="395" cy="120" r="14" fill="none" stroke="#D42A21" stroke-width="2"/>
+        <circle cx="395" cy="120" r="11" fill="#D42A21" data-repere/>
+        <g transform="translate(548 52)" fill="#0B2230"><path d="M0 -22 L 8 6 L 0 1 L -8 6 Z"/><text y="24" text-anchor="middle" font-size="15" font-weight="700" font-family="Figtree, sans-serif">N</text></g>
         <text x="236" y="292" text-anchor="end" font-size="20" font-weight="700" fill="#0B2230" font-family="Figtree, sans-serif">Chexbres</text>
         <text x="420" y="112" font-size="22" font-weight="700" fill="#0B2230" font-family="Figtree, sans-serif">Puidoux</text>
         <text x="420" y="138" font-size="17" font-weight="600" fill="#0A62A8" font-family="Figtree, sans-serif">Piscine du Verrney</text>
-        <text x="300" y="360" text-anchor="middle" font-size="20" font-weight="700" fill="#0A62A8" font-family="Figtree, sans-serif">Lac Léman</text>
+        <text x="300" y="386" text-anchor="middle" font-size="20" font-weight="700" fill="#0A62A8" font-family="Figtree, sans-serif">Lac Léman</text>
       </svg>
     </div>
   </div>
@@ -154,8 +165,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <h2 data-anime="lignes">Les horaires.</h2>
     <ul class="horaires-liste" data-anime="cascade">
-      <li class="jour"><strong>Lundi</strong><span>17 h 30 – 19 h 30</span></li>
-      <li class="jour"><strong>Jeudi</strong><span>17 h 30 – 19 h 30</span></li>
+      <li class="jour"><strong>Lundi</strong><span>17 h 30 – 19 h 30</span>
+        <span class="creneau" aria-hidden="true"><span class="creneau-piste"><span class="creneau-plage"></span></span><span class="creneau-bornes"><i>16 h</i><i>21 h</i></span></span></li><li class="jour"><strong>Jeudi</strong><span>17 h 30 – 19 h 30</span>
+        <span class="creneau" aria-hidden="true"><span class="creneau-piste"><span class="creneau-plage"></span></span><span class="creneau-bornes"><i>16 h</i><i>21 h</i></span></span></li>
     </ul>
     <p class="horaires-note" data-anime>Pendant les périodes scolaires : septembre – décembre, janvier – mars, avril – juin.</p>
     <p class="rappel" data-anime>Venez à la piscine une fois l&#39;inscription confirmée : l&#39;école vous envoie le programme et le calendrier avant le premier cours.</p>

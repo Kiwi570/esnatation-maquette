@@ -24,7 +24,7 @@ export default (c) => {
       <p class="hero-info" data-info-cle data-anime="gsap"><span data-prochain data-modele="${c.s('accueil.hero.info')}">${c.t('accueil.hero.info', { prochain: cy.prochainTexte })}</span><span>${c.t('accueil.hero.infoPrix')}</span></p>
     </div>
     <div class="hero-visuel">
-      ${c.media({ nom: 'accueil-bassin', alt: c.donnees.images['accueil-bassin'].alt, cadrage: '60% 40%', priorite: true, classe: 'hero-cadre', sizes: '(max-width: 760px) 92vw, 40vw', attrs: 'data-fx="parallaxe" data-fx-force="8" data-iris-centre' })}
+      ${c.media({ nom: 'accueil-bassin', alt: c.donnees.images['accueil-bassin'].alt, cadrage: '60% 40%', priorite: true, classe: 'hero-cadre', sizes: '(max-width: 760px) 92vw, 40vw', attrs: 'data-fx="parallaxe" data-fx-force="8" data-iris-centre data-eau-touche' })}
       ${c.media({ nom: 'groupe-lundi-2026', alt: c.donnees.images['groupe-lundi-2026'].alt, cadrage: '50% 40%', classe: 'hero-carte', sizes: '(max-width: 760px) 50vw, 18vw', ratio: '4 / 3', legende: c.t('accueil.hero.carteLegende'), attrs: 'data-anime="gsap"' })}
     </div>
   </div>
@@ -63,6 +63,7 @@ export default (c) => {
       <p class="groupe-levels">${x.levels}</p>
       <h3>${x.nom}</h3>
       <p class="groupe-contenu">${x.contenu}</p>
+      <span class="jauge" aria-hidden="true">${Array.from({ length: 10 }, (_, k) => html`<i${k + 1 >= x.de && k + 1 <= x.a ? html` class="on"` : ''}></i>`)}</span>
       <p class="groupe-meta">${c.t('commun.duree')} · ${c.t('commun.lecons')}</p>
       <p class="groupe-prix" data-prix>${c.site.prix}</p>
       ${c.lien('inscription', { params: `groupe=${x.cle}`, classe: 'lien-fleche', texte: c.t('commun.inscrire') })}
@@ -76,7 +77,8 @@ export default (c) => {
     <div>
       <h2 data-anime="lignes">${c.t('accueil.methode.titre')}</h2>
       <p data-anime>${c.t('accueil.methode.texte')}</p>
-      <div class="parcours">
+      <div class="parcours" data-parcours>
+        <img class="parcours-poisson" data-parcours-poisson src="/assets/images/logo.svg" alt="" width="48" height="35">
         <svg class="parcours-trait" viewBox="0 0 40 400" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M20 4 C 36 54, 4 96, 20 146 S 36 246, 20 296 S 4 360, 20 396" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         <ol class="parcours-etapes">
           ${[1, 2, 3, 4].map((n) => html`<li data-anime style="--delai:${((n - 1) * 0.1).toFixed(1)}s"><span class="parcours-num">${n}</span><div><h3>${c.t(`accueil.methode.e${n}t`)}</h3><p>${c.t(`accueil.methode.e${n}`)}</p></div></li>`)}
@@ -122,8 +124,8 @@ export default (c) => {
       <h2 data-anime="lignes">${c.t('accueil.equipe.titre')}</h2>
       <p data-anime>${c.t('accueil.equipe.texte')}</p>
     </div>
-    <ul class="equipe-liste" data-anime="cascade">${c.donnees.equipe.map((p) => html`<li class="personne">
-      ${c.media({ nom: p.image, alt: p.nom, cadrage: '50% 35%', classe: 'personne-photo', sizes: '160px', ratio: '1 / 1' })}
+    <ul class="equipe-liste" data-anime="cascade" data-bouees>${c.donnees.equipe.map((p) => html`<li class="personne">
+      <span class="bouee" aria-hidden="true"></span>${c.media({ nom: p.image, alt: p.nom, cadrage: '50% 35%', classe: 'personne-photo', sizes: '160px', ratio: '1 / 1' })}
       <h3>${p.nom}</h3><p>${p.role}</p>
     </li>`)}</ul>
     <p data-anime>${c.lien('ecole', { ancre: 'equipe', classe: 'lien-fleche', texte: c.t('accueil.equipe.lien') })}</p>

@@ -49,8 +49,8 @@ export default (c) => html`
       <h2 data-anime="lignes">${c.t('ecole.equipe.titre')}</h2>
       <p data-anime>${c.t('ecole.equipe.texte')}</p>
     </div>
-    <ul class="equipe-liste" data-anime="cascade">${c.donnees.equipe.map((p) => html`<li class="personne">
-      ${c.media({ nom: p.image, alt: p.nom, cadrage: '50% 35%', classe: 'personne-photo', sizes: '160px', ratio: '1 / 1' })}
+    <ul class="equipe-liste" data-anime="cascade" data-bouees>${c.donnees.equipe.map((p) => html`<li class="personne">
+      <span class="bouee" aria-hidden="true"></span>${c.media({ nom: p.image, alt: p.nom, cadrage: '50% 35%', classe: 'personne-photo', sizes: '160px', ratio: '1 / 1' })}
       <h3>${p.nom}</h3><p>${p.role}</p>
     </li>`)}</ul>
   </div>

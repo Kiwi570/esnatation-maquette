@@ -81,6 +81,7 @@ export default (c) => {
             </div>
           </form>
           <div class="fpe__fin" hidden tabindex="-1">
+            <div class="fin-eau" aria-hidden="true"><span class="fin-rond"></span><span class="fin-rond fin-rond--2"></span><img class="fin-poisson" src="/assets/images/logo.svg" alt="" width="120" height="87"></div>
             <h2>${c.t('inscription.finTitre')}</h2>
             <p>${c.t('inscription.finTexte')}</p>
             <p data-resume></p>

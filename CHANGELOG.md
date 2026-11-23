@@ -1,5 +1,35 @@
 # Journal des versions
 
+## v2 · 23 novembre 2026
+
+Analyse complète du site et version plus ludique, sans changer de direction.
+
+**Partout**
+- Des ronds dans l'eau naissent à chaque clic ou toucher, sur toutes les pages.
+- Le poisson de l'en-tête frétille au survol.
+- L'appel final de chaque page : des bulles montent avec le défilement, au-dessus des reflets.
+
+**Accueil**
+- Le bassin de l'ouverture réagit à la souris : l'eau fait des ronds là où on passe.
+- Les 5 groupes : une jauge de 10 flotteurs sur chaque carte montre où se place le groupe.
+- La méthode : un petit poisson descend le parcours en marge (grand écran), les étapes atteintes passent au rouge.
+- L'équipe : chaque portrait est entouré d'une bouée rouge et blanche qui tourne au défilement.
+
+**Les cours**
+- Le disque du prix devient un hublot : une vague ondule au fond, des bulles montent.
+- Les fiches des groupes ont la même jauge de 10 flotteurs.
+
+**L'école**
+- Bouées autour des portraits de l'équipe.
+
+**Inscription**
+- En-tête plus compact : le formulaire arrive plus haut.
+- À l'envoi simulé, le poisson arrive en nageant, avec des ronds dans l'eau.
+
+**Contact**
+- Plan redessiné : terrasses de Lavaux, lac qui ondule, boussole, la piscine signalée par des ronds.
+- Horaires : chaque jour montre son créneau sur une frise du soir (16 h – 21 h).
+
 ## v1 · 23 novembre 2026
 
 Première version de la maquette, direction « Reflets du bassin ».

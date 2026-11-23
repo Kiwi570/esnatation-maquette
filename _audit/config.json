@@ -1,5 +1,19 @@
 {
-  "pagesTypes": ["/", "/cours", "/ecole", "/inscription", "/contact"],
-  "effets": ["caustiques", "ligne-d-eau", "cycles", "bande-photos"],
+  "pagesTypes": [
+    "/",
+    "/cours",
+    "/ecole",
+    "/inscription",
+    "/contact"
+  ],
+  "effets": [
+    "caustiques",
+    "ligne-d-eau",
+    "cycles",
+    "bande-photos",
+    "bouees",
+    "hublot",
+    "bulles"
+  ],
   "siteActuel": "www.esnatation.ch"
 }

@@ -39,6 +39,7 @@ export const bandePhotos = (c, photos, region) => html`<div class="bande-photos"
 /* Appel final : fond bleu bassin, reflets en WebGL (effet « caustiques »), action principale et téléphone. */
 export const appel = (c, { titre, texte, vars = {} }) => html`<section class="appel" id="appel">
   <canvas class="caustiques" data-caustiques="appel" data-effet="caustiques" data-visuel aria-hidden="true"></canvas>
+  <div class="bulles" data-bulles data-effet="bulles" aria-hidden="true">${Array.from({ length: 14 }, (_, i) => html`<span style="--x:${(5 + ((i * 37) % 90))}%;--t:${(0.5 + ((i * 7) % 10) / 10).toFixed(2)};--d:${(i % 5) * 0.11}"></span>`)}</div>
   <div class="conteneur appel-contenu">
     <img class="appel-poisson" src="/assets/images/logo-clair.svg" alt="" width="120" height="87" loading="lazy" data-anime>
     <h2 data-anime="lignes">${c.t(titre, vars)}</h2>

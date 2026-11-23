@@ -1,16 +1,13 @@
 {
- "id": "20261123-161929-complet-cible-partiel",
- "date": "2026-11-23T16:21:19.325Z",
+ "id": "20261123-163610-complet",
+ "date": "2026-11-23T16:56:58.629Z",
  "niveau": "complet",
- "pages": "/,/404",
- "etapes": [
-  "fichiers",
-  "mesures"
- ],
- "version": "1",
+ "pages": "toutes",
+ "etapes": "toutes",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 2,
- "nonLances": 0,
+ "aRegarder": 16,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

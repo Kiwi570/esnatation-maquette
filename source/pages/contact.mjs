@@ -29,17 +29,28 @@ export default (c) => html`
     <div class="plan" data-visuel>
       <p class="plan-note">${c.t('contact.lieu.plan')}</p>
       <svg viewBox="0 0 600 400" role="img" aria-label="${c.s('contact.lieu.plan')} : ${c.s('contact.lieu.piscine')}, ${c.s('contact.lieu.puidoux')}" data-fx="trace">
-        <path d="M0 300 C 120 270, 220 320, 330 300 S 520 250, 600 280 V 400 H 0 Z" fill="#E3F1F4"/>
-        <path d="M0 300 C 120 270, 220 320, 330 300 S 520 250, 600 280" fill="none" stroke="#0A62A8" stroke-width="2.5" data-fx-trait/>
-        <path d="M40 250 C 90 230, 140 236, 190 214 M60 214 C 120 196, 170 196, 230 176 M90 178 C 150 160, 200 158, 260 140" fill="none" stroke="#7aa35a" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 7" data-fx-trait/>
-        <path d="M250 262 C 300 230, 340 190, 395 120" fill="none" stroke="#0B2230" stroke-width="2" stroke-dasharray="6 6" data-fx-trait/>
-        <circle cx="250" cy="262" r="9" fill="#0B2230"/>
-        <circle cx="395" cy="120" r="12" fill="#E5332A" data-repere/>
-        <circle cx="395" cy="120" r="24" fill="none" stroke="#E5332A" stroke-width="2" opacity=".5"/>
+        <path d="M0 292 C 110 268, 220 312, 330 292 S 520 246, 600 272 V 400 H 0 Z" fill="#E3F1F4"/>
+        <g data-vague-lac fill="none" stroke-linecap="round">
+          <path class="lac-vague" d="M0 292 C 110 268, 220 312, 330 292 S 520 246, 600 272" stroke="#0A62A8" stroke-width="2.5"/>
+          <path class="lac-vague lac-vague--2" d="M20 330 C 120 318, 220 342, 330 328 S 520 300, 590 312" stroke="#7fb6dc" stroke-width="2"/>
+          <path class="lac-vague lac-vague--3" d="M60 362 C 150 352, 240 372, 340 360 S 500 340, 570 348" stroke="#a9cfe7" stroke-width="2"/>
+        </g>
+        <g fill="none" stroke="#86ad62" stroke-width="2.5" stroke-linecap="round">
+          <path d="M40 252 C 120 232, 190 238, 250 216" data-fx-trait/>
+          <path d="M58 222 C 130 204, 196 206, 262 184" data-fx-trait/>
+          <path d="M80 192 C 146 176, 206 176, 274 152" data-fx-trait/>
+          <path d="M104 162 C 166 148, 220 146, 286 122" data-fx-trait/>
+        </g>
+        <path d="M250 262 C 300 236, 340 190, 395 120" fill="none" stroke="#0B2230" stroke-width="2.5" stroke-dasharray="7 7" data-fx-trait/>
+        <circle cx="250" cy="262" r="8" fill="#0B2230"/>
+        <circle class="plan-onde" cx="395" cy="120" r="14" fill="none" stroke="#D42A21" stroke-width="2"/>
+        <circle class="plan-onde plan-onde--2" cx="395" cy="120" r="14" fill="none" stroke="#D42A21" stroke-width="2"/>
+        <circle cx="395" cy="120" r="11" fill="#D42A21" data-repere/>
+        <g transform="translate(548 52)" fill="#0B2230"><path d="M0 -22 L 8 6 L 0 1 L -8 6 Z"/><text y="24" text-anchor="middle" font-size="15" font-weight="700" font-family="Figtree, sans-serif">N</text></g>
         <text x="236" y="292" text-anchor="end" font-size="20" font-weight="700" fill="#0B2230" font-family="Figtree, sans-serif">${c.t('contact.lieu.chexbres')}</text>
         <text x="420" y="112" font-size="22" font-weight="700" fill="#0B2230" font-family="Figtree, sans-serif">${c.t('contact.lieu.puidoux')}</text>
         <text x="420" y="138" font-size="17" font-weight="600" fill="#0A62A8" font-family="Figtree, sans-serif">${c.t('contact.lieu.piscine')}</text>
-        <text x="300" y="360" text-anchor="middle" font-size="20" font-weight="700" fill="#0A62A8" font-family="Figtree, sans-serif">${c.t('contact.lieu.lac')}</text>
+        <text x="300" y="386" text-anchor="middle" font-size="20" font-weight="700" fill="#0A62A8" font-family="Figtree, sans-serif">${c.t('contact.lieu.lac')}</text>
       </svg>
     </div>
   </div>
@@ -49,8 +60,8 @@ export default (c) => html`
   <div class="conteneur">
     <h2 data-anime="lignes">${c.t('contact.horaires.titre')}</h2>
     <ul class="horaires-liste" data-anime="cascade">
-      <li class="jour"><strong>${c.t('contact.horaires.lundi')}</strong><span>${c.t('contact.horaires.heures')}</span></li>
-      <li class="jour"><strong>${c.t('contact.horaires.jeudi')}</strong><span>${c.t('contact.horaires.heures')}</span></li>
+      ${['lundi', 'jeudi'].map((j) => html`<li class="jour"><strong>${c.t(`contact.horaires.${j}`)}</strong><span>${c.t('contact.horaires.heures')}</span>
+        <span class="creneau" aria-hidden="true"><span class="creneau-piste"><span class="creneau-plage"></span></span><span class="creneau-bornes"><i>16 h</i><i>21 h</i></span></span></li>`)}
     </ul>
     <p class="horaires-note" data-anime>${c.t('contact.horaires.note')}</p>
     <p class="rappel" data-anime>${c.t('commun.rappelConfirmation')}</p>

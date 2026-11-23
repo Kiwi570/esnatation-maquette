@@ -4,7 +4,7 @@
    - poisson : le poisson du logo se trace dans l'intro, ses ronds dans l'eau, puis il glisse jusqu'à la page ;
    - cycles : la barre de l'année scolaire se remplit jusqu'à aujourd'hui, statuts recalculés à l'heure de Zurich ;
    - bande-photos : les photos de groupes glissent à l'horizontale pendant que la section passe (sans épinglage). */
-import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -191,11 +191,148 @@ async function inscription() {
   if (!root) return;
   const groupe = new URLSearchParams(location.search).get('groupe');
   if (groupe) { const r = root.querySelector(`input[name="groupe"][value="${CSS.escape(groupe)}"]`); if (r) r.checked = true; }
-  const { init } = await import('./modules/formulaire-par-etapes.js?v=1');
+  const { init } = await import('./modules/formulaire-par-etapes.js?v=2');
   await init(root, { sujet: 'Demande d\'inscription' });
   root.addEventListener('formulaire:envoye', () => {
     const fin = root.querySelector('.fpe__fin');
     if (fin) requestAnimationFrame(() => fin.scrollIntoView({ block: 'center' }));
+  });
+}
+
+
+/* ---------- v2 : ronds dans l'eau au clic ou au toucher, partout ---------- */
+function rond(x, y, parent, local) {
+  const r = document.createElement('span');
+  r.className = 'rond-eau' + (local ? ' rond-eau--local' : '');
+  r.setAttribute('aria-hidden', 'true'); r.setAttribute('data-audit-ignorer', ''); r.setAttribute('data-ephemere', '');
+  r.style.left = x + 'px'; r.style.top = y + 'px';
+  parent.appendChild(r);
+  const a = r.animate([{ transform: 'scale(.15)', opacity: 0.95 }, { transform: 'scale(1.9)', opacity: 0 }], { duration: local ? 900 : 650, easing: 'cubic-bezier(.2,.7,.3,1)' });
+  a.onfinish = () => r.remove();
+  setTimeout(() => r.remove(), 1400);
+}
+function rondsDansLEau() {
+  document.addEventListener('pointerdown', (e) => {
+    if (e.button > 0 || e.target.closest('input, select, textarea, label')) return;
+    rond(e.clientX, e.clientY, document.body, false);
+  }, { passive: true });
+  /* Le bassin de l'accueil : on survole l'eau, elle fait des ronds (souris seulement, quelques-uns par seconde). */
+  if (!matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  $$('[data-eau-touche]').forEach((fig) => {
+    let dernier = 0;
+    fig.addEventListener('pointermove', (e) => {
+      const t = performance.now();
+      if (t - dernier < 140) return;
+      dernier = t;
+      const b = fig.getBoundingClientRect();
+      rond(e.clientX - b.left, e.clientY - b.top, fig, true);
+    }, { passive: true });
+  });
+}
+
+/* ---------- bouées : elles tournent quand l'équipe passe à l'écran ---------- */
+function bouees() {
+  if (!window.ScrollTrigger) return;
+  $$('[data-bouees]').forEach((liste) => {
+    const b = $$('.bouee', liste);
+    liste.dataset.effet = 'bouees';
+    window.ScrollTrigger.create({
+      trigger: liste, start: 'top bottom', end: 'bottom top', scrub: 0.6,
+      onUpdate: (st) => b.forEach((x, i) => x.style.setProperty('--tour', `${((st.progress - 0.5) * 240 * (i % 2 ? -1 : 1)).toFixed(1)}deg`)),
+    });
+  });
+}
+
+/* ---------- hublot du prix : la vague ondule, les bulles montent ---------- */
+function hublot() {
+  const svg = document.querySelector('[data-hublot]');
+  if (!svg) return;
+  const v1 = svg.querySelector('.vague--1'), v2 = svg.querySelector('.vague--2');
+  const disque = svg.parentElement, bulles = $$('.bulle', disque);
+  const chemin = (base, A, k, ph) => {
+    let d = `M0 ${(base + A * Math.sin(ph)).toFixed(1)}`;
+    for (let x = 20; x <= 400; x += 20) d += ` L${x} ${(base + A * Math.sin(k * x + ph)).toFixed(1)}`;
+    return d + ' V140 H0 Z';
+  };
+  boucle(disque, (dt, t) => {
+    v1.setAttribute('d', chemin(38, 9, 0.022, t * 1.6));
+    v2.setAttribute('d', chemin(52, 7, 0.028, -t * 1.2 + 1.3));
+    bulles.forEach((b, i) => {
+      const p = ((t * (0.18 + i * 0.05) + i * 0.33) % 1);
+      b.style.transform = `translate3d(${(Math.sin(t * 2 + i) * 6).toFixed(1)}px, ${(-p * 140).toFixed(1)}px, 0)`;
+      b.style.opacity = String((1 - p) * 0.9);
+    });
+  });
+}
+
+/* ---------- appel final : les bulles montent avec le défilement ---------- */
+function bullesAppel() {
+  if (!window.ScrollTrigger) return;
+  $$('[data-bulles]').forEach((bloc) => {
+    const bulles = $$('span', bloc);
+    let h = 0;
+    window.ScrollTrigger.create({
+      trigger: bloc, start: 'top bottom', end: 'bottom top', scrub: 0.4, invalidateOnRefresh: true,
+      onRefresh: () => { h = bloc.clientHeight; },
+      onUpdate: (st) => bulles.forEach((b, i) => {
+        const t = parseFloat(b.style.getPropertyValue('--t')) || 1, d = parseFloat(b.style.getPropertyValue('--d')) || 0;
+        const p = Math.max(0, st.progress * (0.7 + t * 0.6) - d);
+        b.style.transform = `translate3d(${(Math.sin(p * 9 + i) * 10).toFixed(1)}px, ${(-p * (h + 60)).toFixed(1)}px, 0)`;
+      }),
+    });
+    h = bloc.clientHeight;
+  });
+}
+
+/* ---------- contact : le lac ondule, le repère de la piscine fait des ronds ---------- */
+function planContact() {
+  const lac = document.querySelector('[data-vague-lac]');
+  if (!lac) return;
+  const vagues = $$('.lac-vague', lac), ondes = $$('.plan-onde');
+  const svg = lac.ownerSVGElement;
+  svg.dataset.effet = 'plan-lac';
+  boucle(svg, (dt, t) => {
+    vagues.forEach((v, i) => v.setAttribute('transform', `translate(${(Math.sin(t * 0.9 + i * 1.3) * (6 + i * 3)).toFixed(1)} ${(Math.cos(t * 0.7 + i) * 1.5).toFixed(1)})`));
+    ondes.forEach((o, i) => {
+      const p = (t * 0.6 + i * 0.5) % 1;
+      o.style.transform = `scale(${(1 + p * 1.6).toFixed(3)})`;
+      o.style.opacity = String((1 - p) * 0.8);
+    });
+  });
+}
+
+/* ---------- inscription : le poisson arrive quand la demande est prête ---------- */
+function finInscription() {
+  const root = document.querySelector('[data-module="formulaire-par-etapes"]');
+  if (!root || !gsap) return;
+  root.addEventListener('formulaire:envoye', () => {
+    requestAnimationFrame(() => {
+      const fin = root.querySelector('.fpe__fin');
+      if (!fin) return;
+      gsap.fromTo(fin.querySelector('.fin-poisson'), { x: -120, rotate: -14, opacity: 0 }, { x: 0, rotate: 0, opacity: 1, duration: 0.9, ease: 'back.out(1.7)' });
+      gsap.fromTo(fin.querySelectorAll('.fin-rond'), { scale: 0.2, opacity: 0.9 }, { scale: 1.8, opacity: 0, duration: 1.1, stagger: 0.2, ease: 'power2.out', delay: 0.55 });
+    });
+  });
+}
+
+/* ---------- méthode : le poisson descend le parcours, les étapes s'allument ---------- */
+function parcoursPoisson() {
+  const bloc = document.querySelector('[data-parcours]');
+  if (!bloc || !window.ScrollTrigger) return;
+  const poisson = bloc.querySelector('[data-parcours-poisson]'), etapes = $$('.parcours-etapes li', bloc);
+  let hauteur = 0, tops = [];
+  const mesurer = () => { hauteur = bloc.clientHeight; tops = etapes.map((e) => e.offsetTop); };
+  mesurer();
+  bloc.dataset.effet = 'parcours';
+  gsap.set(poisson, { y: 0, rotate: 90 });
+  window.ScrollTrigger.create({
+    trigger: bloc, start: 'top 70%', end: 'bottom 45%', scrub: 0.5, invalidateOnRefresh: true, onRefresh: mesurer,
+    onToggle: (st) => bloc.classList.toggle('en-route', st.isActive || st.progress > 0),
+    onUpdate: (st) => {
+      const y = st.progress * Math.max(0, (tops[tops.length - 1] || 0));
+      gsap.set(poisson, { y, rotate: 90 + Math.sin(st.progress * 14) * 12 });
+      etapes.forEach((e, i) => e.classList.toggle('atteinte', y + 22 >= tops[i]));
+    },
   });
 }
 
@@ -218,6 +355,13 @@ demarrer({
     barreCycles();
     selecteur();
     inscription();
+    rondsDansLEau();
+    bouees();
+    hublot();
+    bullesAppel();
+    planContact();
+    finInscription();
+    parcoursPoisson();
   },
   jouer() {
     if (!gsap) return null;

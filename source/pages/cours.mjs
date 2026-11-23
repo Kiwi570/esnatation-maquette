@@ -19,7 +19,7 @@ export default (c) => {
       <p class="hero-actions" data-anime="gsap">${c.lien('inscription', { classe: 'bouton', texte: c.t('commun.inscrire'), attrs: 'data-action-principale data-survol="magnetique"' })}</p>
       <p class="hero-info masque-ecran-bas" data-anime="gsap"><span data-prochain data-modele="${c.s('cours.ouverture.info')}">${c.t('cours.ouverture.info', { prochain: cy.prochainTexte })}</span></p>
     </div>
-    <p class="prix-geant" data-iris-centre="disque" data-info-cle data-prix><span class="prix-devise">${c.t('cours.ouverture.devise')}</span><strong>${c.t('cours.ouverture.prix')}</strong><span>${c.t('cours.ouverture.prixLibelle')}</span></p>
+    <p class="prix-geant" data-iris-centre="disque" data-info-cle data-prix><svg class="hublot-eau" data-hublot data-effet="hublot" viewBox="0 0 400 140" preserveAspectRatio="none" aria-hidden="true"><path class="vague vague--1" d="M0 40 V140 H400 V40 Z"/><path class="vague vague--2" d="M0 50 V140 H400 V50 Z"/></svg><span class="bulle" aria-hidden="true"></span><span class="bulle bulle--2" aria-hidden="true"></span><span class="bulle bulle--3" aria-hidden="true"></span><span class="prix-devise">${c.t('cours.ouverture.devise')}</span><strong>${c.t('cours.ouverture.prix')}</strong><span>${c.t('cours.ouverture.prixLibelle')}</span></p>
   </div>
   <div class="conteneur selecteur" data-selecteur id="levels">
     <p class="selecteur-aide selecteur-aide--toucher">${c.t('cours.ouverture.choisir')}</p>
@@ -46,6 +46,7 @@ export default (c) => {
         <p class="groupe-levels">${x.levels}</p>
         <h3>${x.nom}</h3>
         <p class="groupe-contenu">${x.contenu}</p>
+        <span class="jauge jauge--claire" aria-hidden="true">${Array.from({ length: 10 }, (_, k) => html`<i${k + 1 >= x.de && k + 1 <= x.a ? html` class="on"` : ''}></i>`)}</span>
         <p>${c.t('commun.duree')} · ${c.t('commun.lecons')} · <span class="groupe-prix" data-prix>${c.site.prix}</span></p>
         ${c.lien('inscription', { params: `groupe=${x.cle}`, classe: 'lien-fleche', texte: c.t('commun.inscrire') })}
       </article>
@@ -57,7 +58,7 @@ export default (c) => {
   <div class="conteneur">
     <h2 data-anime="lignes">${c.t('cours.deroule.titre')}</h2>
     <ol class="deroule-etapes">
-      <svg data-visuel class="deroule-trait" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 20 C 60 2, 90 38, 140 20 S 230 2, 270 20 S 350 38, 398 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg data-visuel class="deroule-trait" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 20 C 60 2, 90 38, 140 20 S 230 2, 270 20 S 350 38, 398 20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
       ${[1, 2, 3, 4].map((n) => html`<li data-anime style="--delai:${((n - 1) * 0.1).toFixed(1)}s"><span class="parcours-num">${n}</span><h3>${c.t(`cours.deroule.e${n}t`)}</h3><p>${c.t(`cours.deroule.e${n}`)}</p></li>`)}
     </ol>
   </div>

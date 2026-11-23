@@ -98,6 +98,52 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Construction pendant les attentes ; accueil et pages intérieures construits d'un même élan."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "cours",
+        "ecole",
+        "inscription",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète et améliorations",
+          "budget": 60,
+          "debut": "2026-11-23T17:31:00+01:00",
+          "fin": "2026-11-23T17:36:10+01:00"
+        },
+        {
+          "etape": "audit complet, corrections",
+          "budget": 45,
+          "debut": "2026-11-23T17:36:10+01:00",
+          "fin": "2026-11-23T18:00:34+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T18:00:34+01:00",
+          "fin": "2026-11-23T18:00:34+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "formulaire-par-etapes"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 0,
+        "relances": 0,
+        "corrections": []
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l'utilisateur : analyse complète et version optimale, ludique et de haut niveau."
     }
   ]
 }

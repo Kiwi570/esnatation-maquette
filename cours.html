@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5FAFB">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -117,7 +117,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="hero-actions" data-anime="gsap"><a href="/inscription" class="bouton" data-libelle="Inscription" data-action-principale data-survol="magnetique">Inscrire mon enfant</a></p>
       <p class="hero-info masque-ecran-bas" data-anime="gsap"><span data-prochain data-modele="Prochain cycle : {prochain}">Prochain cycle : janvier – mars 2027</span></p>
     </div>
-    <p class="prix-geant" data-iris-centre="disque" data-info-cle data-prix><span class="prix-devise">CHF</span><strong>195.–</strong><span>les 10 leçons de 45 minutes, quel que soit le groupe</span></p>
+    <p class="prix-geant" data-iris-centre="disque" data-info-cle data-prix><svg class="hublot-eau" data-hublot data-effet="hublot" viewBox="0 0 400 140" preserveAspectRatio="none" aria-hidden="true"><path class="vague vague--1" d="M0 40 V140 H400 V40 Z"/><path class="vague vague--2" d="M0 50 V140 H400 V50 Z"/></svg><span class="bulle" aria-hidden="true"></span><span class="bulle bulle--2" aria-hidden="true"></span><span class="bulle bulle--3" aria-hidden="true"></span><span class="prix-devise">CHF</span><strong>195.–</strong><span>les 10 leçons de 45 minutes, quel que soit le groupe</span></p>
   </div>
   <div class="conteneur selecteur" data-selecteur id="levels">
     <p class="selecteur-aide selecteur-aide--toucher">Touchez un level pour voir son groupe</p>
@@ -163,6 +163,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p class="groupe-levels">Level 1</p>
         <h3>Débutant</h3>
         <p class="groupe-contenu">Découverte de l&#39;eau</p>
+        <span class="jauge jauge--claire" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
         <p>45 min · 10 leçons · <span class="groupe-prix" data-prix>CHF 195.–</span></p>
         <a href="/inscription?groupe=debutant" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
       </article>
@@ -172,6 +173,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p class="groupe-levels">Level 2-3</p>
         <h3>Moyen</h3>
         <p class="groupe-contenu">Motricité, profondeur</p>
+        <span class="jauge jauge--claire" aria-hidden="true"><i></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
         <p>45 min · 10 leçons · <span class="groupe-prix" data-prix>CHF 195.–</span></p>
         <a href="/inscription?groupe=moyen" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
       </article>
@@ -181,6 +183,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p class="groupe-levels">Level 4-5-6</p>
         <h3>Avancé 1</h3>
         <p class="groupe-contenu">Technique dos et crawl</p>
+        <span class="jauge jauge--claire" aria-hidden="true"><i></i><i></i><i></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></span>
         <p>45 min · 10 leçons · <span class="groupe-prix" data-prix>CHF 195.–</span></p>
         <a href="/inscription?groupe=avance-1" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
       </article>
@@ -190,6 +193,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p class="groupe-levels">Level 7-8</p>
         <h3>Avancé 2</h3>
         <p class="groupe-contenu">Crawl, dos et brasse</p>
+        <span class="jauge jauge--claire" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
         <p>45 min · 10 leçons · <span class="groupe-prix" data-prix>CHF 195.–</span></p>
         <a href="/inscription?groupe=avance-2" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
       </article>
@@ -199,6 +203,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <p class="groupe-levels">Level 9-10</p>
         <h3>Expert</h3>
         <p class="groupe-contenu">Crawl, brasse et dauphin</p>
+        <span class="jauge jauge--claire" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i class="on"></i></span>
         <p>45 min · 10 leçons · <span class="groupe-prix" data-prix>CHF 195.–</span></p>
         <a href="/inscription?groupe=expert" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
       </article>
@@ -209,7 +214,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <h2 data-anime="lignes">Une inscription en quatre temps.</h2>
     <ol class="deroule-etapes">
-      <svg data-visuel class="deroule-trait" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 20 C 60 2, 90 38, 140 20 S 230 2, 270 20 S 350 38, 398 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg data-visuel class="deroule-trait" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 20 C 60 2, 90 38, 140 20 S 230 2, 270 20 S 350 38, 398 20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
       <li data-anime style="--delai:0.0s"><span class="parcours-num">1</span><h3>Votre demande</h3><p>Le groupe, le jour et le cycle souhaités, en ligne ou par téléphone.</p></li><li data-anime style="--delai:0.1s"><span class="parcours-num">2</span><h3>La confirmation</h3><p>L&#39;école confirme la place : sans elle, on ne vient pas à la piscine.</p></li><li data-anime style="--delai:0.2s"><span class="parcours-num">3</span><h3>Le programme</h3><p>Vous recevez le programme et le calendrier du cycle.</p></li><li data-anime style="--delai:0.3s"><span class="parcours-num">4</span><h3>Le premier cours</h3><p>Rendez-vous à la piscine du Verrney, le lundi ou le jeudi.</p></li>
     </ol>
   </div>
@@ -229,6 +234,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="appel" id="appel">
   <canvas class="caustiques" data-caustiques="appel" data-effet="caustiques" data-visuel aria-hidden="true"></canvas>
+  <div class="bulles" data-bulles data-effet="bulles" aria-hidden="true"><span style="--x:5%;--t:0.50;--d:0"></span><span style="--x:42%;--t:1.20;--d:0.11"></span><span style="--x:79%;--t:0.90;--d:0.22"></span><span style="--x:26%;--t:0.60;--d:0.33"></span><span style="--x:63%;--t:1.30;--d:0.44"></span><span style="--x:10%;--t:1.00;--d:0"></span><span style="--x:47%;--t:0.70;--d:0.11"></span><span style="--x:84%;--t:1.40;--d:0.22"></span><span style="--x:31%;--t:1.10;--d:0.33"></span><span style="--x:68%;--t:0.80;--d:0.44"></span><span style="--x:15%;--t:0.50;--d:0"></span><span style="--x:52%;--t:1.20;--d:0.11"></span><span style="--x:89%;--t:0.90;--d:0.22"></span><span style="--x:36%;--t:0.60;--d:0.33"></span></div>
   <div class="conteneur appel-contenu">
     <img class="appel-poisson" src="/assets/images/logo-clair.svg" alt="" width="120" height="87" loading="lazy" data-anime>
     <h2 data-anime="lignes">Prêt pour le grand bain ?</h2>

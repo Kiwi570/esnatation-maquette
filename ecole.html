@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5FAFB">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -149,29 +149,29 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">L&#39;équipe.</h2>
       <p data-anime>Les cours sont donnés par un instructeur suisse de natation et des moniteurs Jeunesse+Sport.</p>
     </div>
-    <ul class="equipe-liste" data-anime="cascade"><li class="personne">
-      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+    <ul class="equipe-liste" data-anime="cascade" data-bouees><li class="personne">
+      <span class="bouee" aria-hidden="true"></span><figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
   <picture>
     <img src="/assets/images/equipe-jean-marc-428.webp" srcset="/assets/images/equipe-jean-marc-320.webp 320w, /assets/images/equipe-jean-marc-428.webp 428w" sizes="160px" alt="Jean-Marc Maurer" width="428" height="428" loading="lazy" decoding="async">
   </picture>
 </figure>
       <h3>Jean-Marc Maurer</h3><p>Instructeur suisse de natation, direction de l&#39;école</p>
     </li><li class="personne">
-      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+      <span class="bouee" aria-hidden="true"></span><figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
   <picture>
     <img src="/assets/images/equipe-daphne-428.webp" srcset="/assets/images/equipe-daphne-320.webp 320w, /assets/images/equipe-daphne-428.webp 428w" sizes="160px" alt="Daphné Bricod" width="428" height="428" loading="lazy" decoding="async">
   </picture>
 </figure>
       <h3>Daphné Bricod</h3><p>Monitrice de natation J+S</p>
     </li><li class="personne">
-      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+      <span class="bouee" aria-hidden="true"></span><figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
   <picture>
     <img src="/assets/images/equipe-dario-428.webp" srcset="/assets/images/equipe-dario-320.webp 320w, /assets/images/equipe-dario-428.webp 428w" sizes="160px" alt="Dario Olmo" width="428" height="428" loading="lazy" decoding="async">
   </picture>
 </figure>
       <h3>Dario Olmo</h3><p>Moniteur de natation J+S</p>
     </li><li class="personne">
-      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+      <span class="bouee" aria-hidden="true"></span><figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
   <picture>
     <img src="/assets/images/equipe-thomas-428.webp" srcset="/assets/images/equipe-thomas-320.webp 320w, /assets/images/equipe-thomas-428.webp 428w" sizes="160px" alt="Thomas Thévenet" width="428" height="428" loading="lazy" decoding="async">
   </picture>
@@ -235,6 +235,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="appel" id="appel">
   <canvas class="caustiques" data-caustiques="appel" data-effet="caustiques" data-visuel aria-hidden="true"></canvas>
+  <div class="bulles" data-bulles data-effet="bulles" aria-hidden="true"><span style="--x:5%;--t:0.50;--d:0"></span><span style="--x:42%;--t:1.20;--d:0.11"></span><span style="--x:79%;--t:0.90;--d:0.22"></span><span style="--x:26%;--t:0.60;--d:0.33"></span><span style="--x:63%;--t:1.30;--d:0.44"></span><span style="--x:10%;--t:1.00;--d:0"></span><span style="--x:47%;--t:0.70;--d:0.11"></span><span style="--x:84%;--t:1.40;--d:0.22"></span><span style="--x:31%;--t:1.10;--d:0.33"></span><span style="--x:68%;--t:0.80;--d:0.44"></span><span style="--x:15%;--t:0.50;--d:0"></span><span style="--x:52%;--t:1.20;--d:0.11"></span><span style="--x:89%;--t:0.90;--d:0.22"></span><span style="--x:36%;--t:0.60;--d:0.33"></span></div>
   <div class="conteneur appel-contenu">
     <img class="appel-poisson" src="/assets/images/logo-clair.svg" alt="" width="120" height="87" loading="lazy" data-anime>
     <h2 data-anime="lignes">Rejoindre l&#39;école.</h2>
