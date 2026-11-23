@@ -1,0 +1,5 @@
+{
+  "pagesTypes": ["/", "/cours", "/ecole", "/inscription", "/contact"],
+  "effets": ["caustiques", "ligne-d-eau", "cycles", "bande-photos"],
+  "siteActuel": "www.esnatation.ch"
+}

@@ -1,0 +1,1504 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-poisson.png",
+    "role": "logo",
+    "alt": "ESN, École Suisse de Natation de Puidoux-Chexbres",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "76808f140f3e57bd",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 13704,
+      "logo-480.webp": 27704
+    },
+    "media": "c.media({ nom: 'logo', alt: \"ESN, École Suisse de Natation de Puidoux-Chexbres\", sizes: '240px' })"
+  },
+  "accueil-bassin": {
+    "nom": "accueil-bassin",
+    "source": "recu/grok/accueil-bassin.png",
+    "role": "ouverture",
+    "alt": "Bassin vu du dessus, reflets de lumière sur le carrelage et ligne d'eau rouge et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a1c79c1c60fdf798",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "60% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1312,
+      "height": 1640,
+      "source": [
+        1312,
+        1955
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "accueil-bassin-640.webp",
+      "accueil-bassin-1280.webp",
+      "accueil-bassin-1920.webp"
+    ],
+    "poids": {
+      "accueil-bassin-640.webp": 56064,
+      "accueil-bassin-1280.webp": 125720,
+      "accueil-bassin-1920.webp": 202498
+    },
+    "media": "c.media({ nom: 'accueil-bassin', alt: \"Bassin vu du dessus, reflets de lumière sur le carrelage et ligne d'eau rouge et blanc\", cadrage: '60% 37%', sizes: '100vw', priorite: true })"
+  },
+  "cours-planches": {
+    "nom": "cours-planches",
+    "source": "recu/grok/cours-planches.png",
+    "role": "ouverture",
+    "alt": "Planches de natation colorées alignées au bord du bassin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1dea368887ac516c",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "44% 55%"
+    },
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 99.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 342,
+      "width": 1600,
+      "height": 686,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "cours-planches-640.webp",
+      "cours-planches-1280.webp",
+      "cours-planches-1920.webp",
+      "cours-planches-mobile-640.webp",
+      "cours-planches-mobile-1080.webp"
+    ],
+    "poids": {
+      "cours-planches-640.webp": 27438,
+      "cours-planches-1280.webp": 63852,
+      "cours-planches-1920.webp": 100148,
+      "cours-planches-mobile-640.webp": 39816,
+      "cours-planches-mobile-1080.webp": 76800
+    },
+    "media": "c.media({ nom: 'cours-planches', alt: \"Planches de natation colorées alignées au bord du bassin\", cadrage: '45% 50%', cadrageMobile: '44% 55%', sizes: '100vw', priorite: true })"
+  },
+  "ecole-sous-l-eau": {
+    "nom": "ecole-sous-l-eau",
+    "source": "recu/grok/ecole-sous-l-eau.png",
+    "role": "ouverture",
+    "alt": "Vue sous l'eau d'une ligne de bassin, rayons de lumière et petites bulles",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "db9d2da0bfd466ca",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "49% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "ecole-sous-l-eau-640.webp",
+      "ecole-sous-l-eau-1280.webp",
+      "ecole-sous-l-eau-1920.webp",
+      "ecole-sous-l-eau-mobile-640.webp",
+      "ecole-sous-l-eau-mobile-1080.webp"
+    ],
+    "poids": {
+      "ecole-sous-l-eau-640.webp": 17034,
+      "ecole-sous-l-eau-1280.webp": 42706,
+      "ecole-sous-l-eau-1920.webp": 67858,
+      "ecole-sous-l-eau-mobile-640.webp": 36492,
+      "ecole-sous-l-eau-mobile-1080.webp": 70076
+    },
+    "media": "c.media({ nom: 'ecole-sous-l-eau', alt: \"Vue sous l'eau d'une ligne de bassin, rayons de lumière et petites bulles\", cadrage: '49% 42%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "inscription-sac": {
+    "nom": "inscription-sac",
+    "source": "recu/grok/inscription-sac.png",
+    "role": "ouverture",
+    "alt": "Sac de piscine prêt sur un banc : bonnet, lunettes et serviette",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "89648afce5e5b6de",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "38% 59%",
+    "sujet": {
+      "x": 9.1,
+      "y": 40.4,
+      "l": 86.4,
+      "h": 41
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 315,
+      "width": 1312,
+      "height": 1640,
+      "source": [
+        1312,
+        1955
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "inscription-sac-640.webp",
+      "inscription-sac-1280.webp",
+      "inscription-sac-1920.webp"
+    ],
+    "poids": {
+      "inscription-sac-640.webp": 36106,
+      "inscription-sac-1280.webp": 82938,
+      "inscription-sac-1920.webp": 133914
+    },
+    "media": "c.media({ nom: 'inscription-sac', alt: \"Sac de piscine prêt sur un banc : bonnet, lunettes et serviette\", cadrage: '38% 59%', sizes: '100vw', priorite: true })"
+  },
+  "contact-bassin-soir": {
+    "nom": "contact-bassin-soir",
+    "source": "recu/grok/contact-bassin-soir.png",
+    "role": "ouverture",
+    "alt": "Bassin calme en fin de journée, lumières reflétées dans l'eau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "98c6b17eba576953",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "65% 49%",
+    "sujet": {
+      "x": 19.7,
+      "y": 22.7,
+      "l": 80.3,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 168,
+      "top": 0,
+      "width": 1432,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,34 fois (source de 1432 px après recadrage)"
+    ],
+    "fichiers": [
+      "contact-bassin-soir-640.webp",
+      "contact-bassin-soir-1280.webp",
+      "contact-bassin-soir-1920.webp"
+    ],
+    "poids": {
+      "contact-bassin-soir-640.webp": 31850,
+      "contact-bassin-soir-1280.webp": 78418,
+      "contact-bassin-soir-1920.webp": 122296
+    },
+    "media": "c.media({ nom: 'contact-bassin-soir', alt: \"Bassin calme en fin de journée, lumières reflétées dans l'eau\", cadrage: '65% 49%', sizes: '100vw', priorite: true })"
+  },
+  "accueil-bonnets": {
+    "nom": "accueil-bonnets",
+    "source": "recu/grok/accueil-bonnets.png",
+    "role": "galerie",
+    "alt": "Bonnets de bain colorés et lunettes qui sèchent sur le bord carrelé",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ef1a5b259c2ce97b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 54%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0,
+      "l": 86.4,
+      "h": 78.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 184,
+      "width": 1312,
+      "height": 1640,
+      "source": [
+        1312,
+        1955
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,22 fois (source de 1312 px après recadrage)"
+    ],
+    "fichiers": [
+      "accueil-bonnets-1024.webp",
+      "accueil-bonnets-1168.webp",
+      "accueil-bonnets-1600.webp"
+    ],
+    "poids": {
+      "accueil-bonnets-1024.webp": 88176,
+      "accueil-bonnets-1168.webp": 101858,
+      "accueil-bonnets-1600.webp": 145586
+    },
+    "media": "c.media({ nom: 'accueil-bonnets', alt: \"Bonnets de bain colorés et lunettes qui sèchent sur le bord carrelé\", cadrage: '45% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "page-404": {
+    "nom": "page-404",
+    "source": "recu/grok/page-404.png",
+    "role": "404",
+    "alt": "Une planche de natation jaune qui flotte seule au milieu du bassin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1dd160d71e98089f",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 61%"
+    },
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "page-404-640.webp",
+      "page-404-1280.webp",
+      "page-404-1920.webp",
+      "page-404-mobile-640.webp"
+    ],
+    "poids": {
+      "page-404-640.webp": 30352,
+      "page-404-1280.webp": 75080,
+      "page-404-1920.webp": 119242,
+      "page-404-mobile-640.webp": 44474
+    },
+    "media": "c.media({ nom: 'page-404', alt: \"Une planche de natation jaune qui flotte seule au milieu du bassin\", cadrage: '50% 53%', cadrageMobile: '50% 61%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "groupe-lundi-2026": {
+    "nom": "groupe-lundi-2026",
+    "source": "recu/lundi-2e-trim-2026.jpg",
+    "role": "galerie",
+    "alt": "Groupe du lundi, deuxième trimestre 2026, au bord du bassin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8a44a2cd79266a64",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "46% 49%",
+    "sujet": {
+      "x": 9.4,
+      "y": 9.3,
+      "l": 73.7,
+      "h": 82.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-2026-1024.webp",
+      "groupe-lundi-2026-1168.webp",
+      "groupe-lundi-2026-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-2026-1024.webp": 106884,
+      "groupe-lundi-2026-1168.webp": 126870,
+      "groupe-lundi-2026-1600.webp": 187558
+    },
+    "media": "c.media({ nom: 'groupe-lundi-2026', alt: \"Groupe du lundi, deuxième trimestre 2026, au bord du bassin\", cadrage: '46% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-jeudi-2025": {
+    "nom": "groupe-jeudi-2025",
+    "source": "recu/2e-tim-2025-jeudi.jpg",
+    "role": "galerie",
+    "alt": "Groupe du jeudi, deuxième trimestre 2025, dans l'eau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "32a874988a13dd4c",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 53%",
+    "sujet": {
+      "x": 8.4,
+      "y": 23.2,
+      "l": 77.8,
+      "h": 62.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-jeudi-2025-1024.webp",
+      "groupe-jeudi-2025-1168.webp",
+      "groupe-jeudi-2025-1600.webp"
+    ],
+    "poids": {
+      "groupe-jeudi-2025-1024.webp": 128070,
+      "groupe-jeudi-2025-1168.webp": 155922,
+      "groupe-jeudi-2025-1600.webp": 246602
+    },
+    "media": "c.media({ nom: 'groupe-jeudi-2025', alt: \"Groupe du jeudi, deuxième trimestre 2025, dans l'eau\", cadrage: '47% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-lundi-2025": {
+    "nom": "groupe-lundi-2025",
+    "source": "recu/2e-trim-2025-lundi.jpg",
+    "role": "galerie",
+    "alt": "Groupe du lundi, deuxième trimestre 2025",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d97ac3eedc6fee8e",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 64%",
+    "sujet": {
+      "x": 7.6,
+      "y": 34.5,
+      "l": 82.4,
+      "h": 63.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-2025-1024.webp",
+      "groupe-lundi-2025-1168.webp",
+      "groupe-lundi-2025-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-2025-1024.webp": 115170,
+      "groupe-lundi-2025-1168.webp": 135466,
+      "groupe-lundi-2025-1600.webp": 198772
+    },
+    "media": "c.media({ nom: 'groupe-lundi-2025', alt: \"Groupe du lundi, deuxième trimestre 2025\", cadrage: '49% 64%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-lundi-hiver-2026": {
+    "nom": "groupe-lundi-hiver-2026",
+    "source": "recu/lundi-1er-trim-2026-3.jpg",
+    "role": "galerie",
+    "alt": "Groupe du lundi, premier trimestre 2026",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0de5acb104b3ae5a",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 56%",
+    "sujet": {
+      "x": 5.6,
+      "y": 27.2,
+      "l": 46.9,
+      "h": 70.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-hiver-2026-1024.webp",
+      "groupe-lundi-hiver-2026-1168.webp",
+      "groupe-lundi-hiver-2026-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-hiver-2026-1024.webp": 101738,
+      "groupe-lundi-hiver-2026-1168.webp": 121668,
+      "groupe-lundi-hiver-2026-1600.webp": 187592
+    },
+    "media": "c.media({ nom: 'groupe-lundi-hiver-2026', alt: \"Groupe du lundi, premier trimestre 2026\", cadrage: '51% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-jeudi-automne-2025": {
+    "nom": "groupe-jeudi-automne-2025",
+    "source": "recu/4eme-trimestre-2025-jeudi-3.jpg",
+    "role": "galerie",
+    "alt": "Groupe du jeudi, quatrième trimestre 2025",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bf59b46975aeb169",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "54% 55%",
+    "sujet": {
+      "x": 13.8,
+      "y": 24,
+      "l": 81.3,
+      "h": 65.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-jeudi-automne-2025-1024.webp",
+      "groupe-jeudi-automne-2025-1168.webp",
+      "groupe-jeudi-automne-2025-1600.webp"
+    ],
+    "poids": {
+      "groupe-jeudi-automne-2025-1024.webp": 109852,
+      "groupe-jeudi-automne-2025-1168.webp": 130828,
+      "groupe-jeudi-automne-2025-1600.webp": 200048
+    },
+    "media": "c.media({ nom: 'groupe-jeudi-automne-2025', alt: \"Groupe du jeudi, quatrième trimestre 2025\", cadrage: '54% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-lundi-automne-2024": {
+    "nom": "groupe-lundi-automne-2024",
+    "source": "recu/4e-trim-2024-lundi-4.jpg",
+    "role": "galerie",
+    "alt": "Groupe du lundi, quatrième trimestre 2024, dans l'eau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a0f7b6d495e65510",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 51%",
+    "sujet": {
+      "x": 3.2,
+      "y": 16.9,
+      "l": 88.4,
+      "h": 70.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-automne-2024-1024.webp",
+      "groupe-lundi-automne-2024-1168.webp",
+      "groupe-lundi-automne-2024-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-automne-2024-1024.webp": 126142,
+      "groupe-lundi-automne-2024-1168.webp": 155736,
+      "groupe-lundi-automne-2024-1600.webp": 247090
+    },
+    "media": "c.media({ nom: 'groupe-lundi-automne-2024', alt: \"Groupe du lundi, quatrième trimestre 2024, dans l'eau\", cadrage: '47% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-lundi-hiver-2025": {
+    "nom": "groupe-lundi-hiver-2025",
+    "source": "recu/1er-trimestre-2025-lundi-5.jpg",
+    "role": "galerie",
+    "alt": "Groupe du lundi, premier trimestre 2025, avec un moniteur dans le bassin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4f57543257009f19",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 65%",
+    "sujet": {
+      "x": 1.8,
+      "y": 46.3,
+      "l": 86.8,
+      "h": 41.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-hiver-2025-1024.webp",
+      "groupe-lundi-hiver-2025-1168.webp",
+      "groupe-lundi-hiver-2025-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-hiver-2025-1024.webp": 104680,
+      "groupe-lundi-hiver-2025-1168.webp": 124950,
+      "groupe-lundi-hiver-2025-1600.webp": 179828
+    },
+    "media": "c.media({ nom: 'groupe-lundi-hiver-2025', alt: \"Groupe du lundi, premier trimestre 2025, avec un moniteur dans le bassin\", cadrage: '45% 65%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "groupe-lundi-bassin-2024": {
+    "nom": "groupe-lundi-bassin-2024",
+    "source": "recu/4e-trim-2024-lundi-2.jpg",
+    "role": "galerie",
+    "alt": "Enfants dans le grand bassin, quatrième trimestre 2024",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "061dfbdd12b84a19",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 71.9,
+      "y": 35,
+      "l": 23.9,
+      "h": 38.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-lundi-bassin-2024-1024.webp",
+      "groupe-lundi-bassin-2024-1168.webp",
+      "groupe-lundi-bassin-2024-1600.webp"
+    ],
+    "poids": {
+      "groupe-lundi-bassin-2024-1024.webp": 92676,
+      "groupe-lundi-bassin-2024-1168.webp": 111734,
+      "groupe-lundi-bassin-2024-1600.webp": 170046
+    },
+    "media": "c.media({ nom: 'groupe-lundi-bassin-2024', alt: \"Enfants dans le grand bassin, quatrième trimestre 2024\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "plongeon": {
+    "nom": "plongeon",
+    "source": "recu/bienvenue-2.jpg",
+    "role": "galerie",
+    "alt": "Un élève plonge depuis le bord, sous l'œil de ses camarades",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "93df088e84758ee2",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 28%",
+    "sujet": {
+      "x": 5.6,
+      "y": 2,
+      "l": 89.2,
+      "h": 86.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 413,
+      "top": 0,
+      "width": 1440,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 1440 px après recadrage)"
+    ],
+    "fichiers": [
+      "plongeon-1024.webp",
+      "plongeon-1168.webp",
+      "plongeon-1600.webp"
+    ],
+    "poids": {
+      "plongeon-1024.webp": 136868,
+      "plongeon-1168.webp": 164296,
+      "plongeon-1600.webp": 230688
+    },
+    "media": "c.media({ nom: 'plongeon', alt: \"Un élève plonge depuis le bord, sous l'œil de ses camarades\", cadrage: '50% 28%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "equipe-jean-marc": {
+    "nom": "equipe-jean-marc",
+    "source": "recu/dario-olmo.jpg",
+    "role": "portrait",
+    "alt": "Jean-Marc Maurer",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "dc3f06e1fefeac02",
+    "ratio": "1:1",
+    "largeurs": [
+      320,
+      428
+    ],
+    "mobile": null,
+    "cadrage": "41% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 54,
+      "width": 428,
+      "height": 428,
+      "source": [
+        428,
+        528
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "428 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "equipe-jean-marc-320.webp",
+      "equipe-jean-marc-428.webp"
+    ],
+    "poids": {
+      "equipe-jean-marc-320.webp": 7778,
+      "equipe-jean-marc-428.webp": 11076
+    },
+    "media": "c.media({ nom: 'equipe-jean-marc', alt: \"Jean-Marc Maurer\", cadrage: '41% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "equipe-dario": {
+    "nom": "equipe-dario",
+    "source": "recu/jean-marc-maurer.jpg",
+    "role": "portrait",
+    "alt": "Dario Olmo",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "92c91f4096d7fa21",
+    "ratio": "1:1",
+    "largeurs": [
+      320,
+      428
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 32,
+      "top": 0,
+      "width": 389,
+      "height": 389,
+      "source": [
+        428,
+        389
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "428 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 389 px après recadrage)"
+    ],
+    "fichiers": [
+      "equipe-dario-320.webp",
+      "equipe-dario-428.webp"
+    ],
+    "poids": {
+      "equipe-dario-320.webp": 14308,
+      "equipe-dario-428.webp": 20606
+    },
+    "media": "c.media({ nom: 'equipe-dario', alt: \"Dario Olmo\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "equipe-thomas": {
+    "nom": "equipe-thomas",
+    "source": "recu/dario-olmo-2.jpg",
+    "role": "portrait",
+    "alt": "Thomas Thévenet",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "69a7b618a107ca8d",
+    "ratio": "1:1",
+    "largeurs": [
+      320,
+      428
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 2.6,
+      "y": 0,
+      "l": 93.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 20,
+      "top": 0,
+      "width": 397,
+      "height": 397,
+      "source": [
+        428,
+        397
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "428 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 397 px après recadrage)"
+    ],
+    "fichiers": [
+      "equipe-thomas-320.webp",
+      "equipe-thomas-428.webp"
+    ],
+    "poids": {
+      "equipe-thomas-320.webp": 9900,
+      "equipe-thomas-428.webp": 14890
+    },
+    "media": "c.media({ nom: 'equipe-thomas', alt: \"Thomas Thévenet\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "equipe-daphne": {
+    "nom": "equipe-daphne",
+    "source": "recu/thomas-thevenet.jpg",
+    "role": "portrait",
+    "alt": "Daphné Bricod",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "9360dfaea717b892",
+    "ratio": "1:1",
+    "largeurs": [
+      320,
+      428
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 41,
+      "top": 0,
+      "width": 372,
+      "height": 372,
+      "source": [
+        428,
+        372
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "428 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,15 fois (source de 372 px après recadrage)"
+    ],
+    "fichiers": [
+      "equipe-daphne-320.webp",
+      "equipe-daphne-428.webp"
+    ],
+    "poids": {
+      "equipe-daphne-320.webp": 11626,
+      "equipe-daphne-428.webp": 16602
+    },
+    "media": "c.media({ nom: 'equipe-daphne', alt: \"Daphné Bricod\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  }
+}

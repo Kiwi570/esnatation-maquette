@@ -1,0 +1,356 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "S'inscrire",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "confort": "Informations",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » seront fournies par l'école.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "École Suisse de Natation · Puidoux-Chexbres",
+    "logoLien": "ESN École Suisse de Natation, accueil",
+    "marque": "ESN",
+    "marqueSous": "École Suisse de Natation",
+    "mentions": "Mentions légales · à compléter",
+    "confidentialite": "Politique de confidentialité · à compléter",
+    "js": "Avec le soutien de Jeunesse+Sport",
+    "lieu": "Piscine du collège du Verrney, Puidoux",
+    "horaires": "Lundi et jeudi, 17 h 30 – 19 h 30",
+    "periodes": "Pendant les périodes scolaires",
+    "emailLibelle": "E-mail",
+    "telLibelle": "Téléphone",
+    "copie": "© ESN École Suisse de Natation de Puidoux-Chexbres, depuis 1995",
+    "duree": "45 min",
+    "lecons": "10 leçons",
+    "prixLibelle": "les 10 leçons de 45 minutes",
+    "inscrire": "Inscrire mon enfant",
+    "demander": "Demander une inscription",
+    "voirCours": "Voir les cours",
+    "rappelConfirmation": "Venez à la piscine une fois l'inscription confirmée : l'école vous envoie le programme et le calendrier avant le premier cours.",
+    "ligneEau": "Ligne d'eau : les 10 levels de l'école"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "ESN École Suisse de Natation, Puidoux-Chexbres : cours de natation pour enfants dès 4 ans",
+      "description": "Cours de natation en groupe de 12 enfants au plus, dès 4 ans révolus, à la piscine du Verrney à Puidoux. Cycles de 10 leçons de 45 minutes, CHF 195.–.",
+      "nav": "Accueil",
+      "partageAlt": "ESN, apprendre à nager à son rythme : bassin vu du dessus",
+      "accroche": "Apprendre à nager, à son rythme."
+    },
+    "cours": {
+      "titre": "Les cours : cinq groupes, du Level 1 au Level 10 · ESN Puidoux-Chexbres",
+      "description": "Débutant, Moyen, Avancé 1, Avancé 2, Expert : 45 minutes, 10 leçons, CHF 195.– par cycle. Lundi et jeudi à la piscine du Verrney.",
+      "nav": "Les cours",
+      "partageAlt": "Les cours de l'ESN : planches de natation au bord du bassin",
+      "accroche": "Cinq groupes, du Level 1 au Level 10."
+    },
+    "ecole": {
+      "titre": "L'école : depuis 1995 à Puidoux · ESN École Suisse de Natation",
+      "description": "Une école née d'une passion, une pédagogie sans compétition, une équipe J+S et la charte des droits de l'enfant dans le sport.",
+      "nav": "L'école",
+      "partageAlt": "L'école ESN : vue sous l'eau d'une ligne de bassin",
+      "accroche": "Depuis 1995, la natation pour tous."
+    },
+    "inscription": {
+      "titre": "Demande d'inscription · ESN École Suisse de Natation",
+      "description": "Demandez une place pour votre enfant en trois étapes : son groupe, le jour et le cycle, vos coordonnées. L'école confirme chaque inscription.",
+      "nav": "Inscription",
+      "partageAlt": "Inscription à l'ESN : sac de piscine prêt sur un banc",
+      "accroche": "Une place pour votre enfant."
+    },
+    "contact": {
+      "titre": "Contact : ESN École Suisse de Natation, Puidoux",
+      "description": "Téléphone, e-mail, lieu et horaires des cours de l'ESN à la piscine du collège du Verrney, à Puidoux.",
+      "nav": "Contact",
+      "partageAlt": "Contact de l'ESN : bassin calme en fin de journée",
+      "accroche": "Une question ? Appelez l'école."
+    },
+    "404": {
+      "titre": "Page introuvable · ESN École Suisse de Natation",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "cycles": {
+    "titreCourt": "Cycle",
+    "enCours": "En cours",
+    "prochain": "Prochain cycle",
+    "ensuite": "Ensuite",
+    "aujourdhui": "Aujourd'hui",
+    "septembre": "Sept.",
+    "juin": "Juin",
+    "ete": "Été : pas de cours",
+    "passe": "Terminé"
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "École de natation à Puidoux-Chexbres, depuis 1995",
+      "titre1": "Apprendre à nager,",
+      "titre2": "à son rythme.",
+      "texte": "Des cours en groupe dès 4 ans, douze enfants au plus, à la piscine du collège du Verrney.",
+      "info": "Prochain cycle : {prochain}",
+      "infoPrix": "CHF 195.– les 10 leçons",
+      "carteLegende": "Un groupe du lundi, au printemps 2026"
+    },
+    "pourqui": {
+      "titre": "Petits groupes, grands progrès.",
+      "texte": "Pas de cours privés à l'ESN : on apprend ensemble, encadré par un instructeur suisse de natation et des moniteurs Jeunesse+Sport. Et pas de compétition, sauf si l'enfant en a vraiment envie.",
+      "c1": "ans révolus, l'âge pour commencer",
+      "c2": "enfants au plus par groupe",
+      "c3": "minutes par leçon",
+      "c4": "leçons par cycle"
+    },
+    "groupes": {
+      "surtitre": "Les cours",
+      "titre": "Cinq groupes, dix levels.",
+      "texte": "Chaque enfant avance d'un level à l'autre, de la découverte de l'eau jusqu'au dauphin.",
+      "tous": "Tous les détails des cours"
+    },
+    "methode": {
+      "titre": "Le dos et le crawl d'abord. La brasse en dernier.",
+      "texte": "La brasse demande une coordination difficile pour les jeunes enfants : à l'ESN, elle vient après le dos et le crawl. Chaque étape se gagne sans se presser.",
+      "e1t": "La tête sous l'eau",
+      "e1": "On apprend à immerger la tête, en confiance.",
+      "e2t": "Sur le ventre",
+      "e2": "On nage à plat ventre, on découvre la profondeur.",
+      "e3t": "Dos et crawl",
+      "e3": "La technique vient, avec l'endurance.",
+      "e4t": "La brasse, en dernier",
+      "e4": "Quand la coordination est là, puis le dauphin.",
+      "legende": "Un plongeon depuis le bord, sous l'œil des copains"
+    },
+    "conseils": {
+      "titre": "Les quatre conseils de l'école aux débutants",
+      "mot1": "Courage",
+      "mot2": "Patience",
+      "mot3": "Régularité",
+      "mot4": "Plaisir",
+      "texte": "Chaque trimestre, chaque groupe a sa photo au bord du bassin.",
+      "region": "Photos des groupes, trimestre après trimestre"
+    },
+    "annee": {
+      "titre": "Trois cycles par année scolaire.",
+      "texte": "Dix leçons par cycle, le lundi ou le jeudi, de septembre à juin. Les cours débutent après réception du programme et du calendrier.",
+      "c1": "Septembre – décembre",
+      "c2": "Janvier – mars",
+      "c3": "Avril – juin",
+      "quand": "Quand",
+      "ou": "Où",
+      "combien": "Combien"
+    },
+    "equipe": {
+      "titre": "L'équipe au bord du bassin.",
+      "texte": "Un instructeur suisse de natation et trois moniteurs formés par Jeunesse+Sport.",
+      "lien": "Découvrir l'école"
+    },
+    "confiance": {
+      "annees": "ans d'école",
+      "depuis": "Ouverte en 1995",
+      "titre": "Éducation. Découverte. Plaisir.",
+      "texte": "L'école bénéficie du soutien financier de Jeunesse+Sport et suit la charte des droits de l'enfant dans le sport.",
+      "lien": "Lire la charte"
+    },
+    "appel": {
+      "titre": "Le prochain cycle commence en {mois}.",
+      "texte": "Faites votre demande : l'école confirme chaque inscription et vous envoie le programme et le calendrier."
+    }
+  },
+  "cours": {
+    "ouverture": {
+      "surtitre": "Les cours",
+      "titre1": "Cinq groupes,",
+      "titre2": "du Level 1 au Level 10.",
+      "texte": "Tous les groupes nagent 45 minutes, dix leçons par cycle, pendant les périodes scolaires.",
+      "prix": "195.–",
+      "devise": "CHF",
+      "prixLibelle": "les 10 leçons de 45 minutes, quel que soit le groupe",
+      "info": "Prochain cycle : {prochain}",
+      "choisir": "Touchez un level pour voir son groupe",
+      "choisirSouris": "Choisissez un level pour voir son groupe"
+    },
+    "fiches": {
+      "titre": "Le bon groupe pour chaque enfant.",
+      "texte": "Vous hésitez entre deux groupes ? Dites-le dans votre demande d'inscription.",
+      "level": "Levels"
+    },
+    "deroule": {
+      "titre": "Une inscription en quatre temps.",
+      "e1t": "Votre demande",
+      "e1": "Le groupe, le jour et le cycle souhaités, en ligne ou par téléphone.",
+      "e2t": "La confirmation",
+      "e2": "L'école confirme la place : sans elle, on ne vient pas à la piscine.",
+      "e3t": "Le programme",
+      "e3": "Vous recevez le programme et le calendrier du cycle.",
+      "e4t": "Le premier cours",
+      "e4": "Rendez-vous à la piscine du Verrney, le lundi ou le jeudi."
+    },
+    "faq": {
+      "titre": "Bon à savoir",
+      "q1": "Dès quel âge ?",
+      "r1": "Dès 4 ans révolus.",
+      "q2": "Combien d'enfants par groupe ?",
+      "r2": "Douze au plus. L'école ne donne pas de cours privés.",
+      "q3": "Faut-il faire de la compétition ?",
+      "r3": "Non. Pas de compétition, sauf si l'enfant en a vraiment envie.",
+      "q4": "Pourquoi le numéro AVS de l'enfant ?",
+      "r4": "Il est demandé pour le soutien financier de Jeunesse+Sport. L'école garde ces données confidentielles.",
+      "q5": "Peut-on venir directement à la piscine ?",
+      "r5": "Non : attendez la confirmation de l'école, puis le programme et le calendrier.",
+      "q6": "Quels jours, à quelle heure ?",
+      "r6": "Le lundi et le jeudi, entre 17 h 30 et 19 h 30, pendant les périodes scolaires."
+    },
+    "appel": {
+      "titre": "Prêt pour le grand bain ?",
+      "texte": "Choisissez le groupe de votre enfant, on s'occupe du reste."
+    }
+  },
+  "ecole": {
+    "ouverture": {
+      "surtitre": "L'école",
+      "titre1": "Depuis 1995,",
+      "titre2": "la natation pour tous.",
+      "texte": "Une école née d'une passion, pour rendre l'apprentissage facile et accessible.",
+      "info": "Direction : Jean-Marc Maurer, instructeur suisse de natation"
+    },
+    "histoire": {
+      "titre": "Éducation. Découverte. Plaisir.",
+      "texte1": "Depuis son ouverture en 1995, l'ESN aide les enfants à acquérir les bases, de nouvelles compétences et la confiance en eux, tout au long de leur apprentissage.",
+      "texte2": "La natation est une activité qui fait du bien au développement de l'enfant. À Puidoux, elle s'apprend en groupe, à la piscine du collège du Verrney, pour tous les niveaux."
+    },
+    "pedagogie": {
+      "titre": "Une pédagogie sans pression.",
+      "p1t": "Pas de compétition",
+      "p1": "Sauf si l'enfant en a vraiment envie.",
+      "p2t": "La brasse en dernier",
+      "p2": "Après le dos et le crawl : sa coordination est difficile pour les petits.",
+      "p3t": "Pas à pas",
+      "p3": "Immerger la tête, nager sur le ventre, gagner confiance et endurance.",
+      "p4t": "En groupe",
+      "p4": "Douze enfants au plus, aucun cours privé."
+    },
+    "equipe": {
+      "titre": "L'équipe.",
+      "texte": "Les cours sont donnés par un instructeur suisse de natation et des moniteurs Jeunesse+Sport."
+    },
+    "charte": {
+      "titre": "Les droits de l'enfant dans le sport.",
+      "texte": "L'école suit la charte de Swiss Olympic et de Jeunesse+Sport. Chaque enfant a le droit de :",
+      "roles": "Les parents soutiennent leur enfant et gardent le dialogue ouvert ; l'école et ses moniteurs instaurent un climat de confiance."
+    },
+    "soutien": {
+      "titre": "Avec Jeunesse+Sport.",
+      "texte": "L'école bénéficie du soutien financier de Jeunesse+Sport, le programme de la Confédération pour le sport des jeunes. C'est pour ce soutien que le numéro AVS de l'enfant est demandé à l'inscription.",
+      "lien": "Le site de Jeunesse+Sport"
+    },
+    "photos": {
+      "titre": "Trimestre après trimestre.",
+      "region": "Photos des groupes de l'école"
+    },
+    "appel": {
+      "titre": "Rejoindre l'école.",
+      "texte": "Une demande suffit : l'école vous répond et confirme la place de votre enfant."
+    }
+  },
+  "inscription": {
+    "ouverture": {
+      "surtitre": "Inscription",
+      "titre": "Une place pour votre enfant.",
+      "texte": "Trois étapes, deux minutes. L'école confirme chaque inscription avant le premier cours.",
+      "info": "Prochain cycle : {prochain}",
+      "simule": "Maquette : rien n'est envoyé, la demande est simulée."
+    },
+    "etape1": "L'enfant",
+    "etape2": "Quand",
+    "etape3": "Contact",
+    "etape4": "Résumé",
+    "q1": "Pour qui est la place ?",
+    "prenom": "Prénom de l'enfant",
+    "age": "Âge de l'enfant",
+    "ageAide": "Dès 4 ans révolus.",
+    "groupe": "Groupe souhaité",
+    "groupeHesite": "Je ne sais pas encore",
+    "groupeHesiteTexte": "L'école vous aide à choisir",
+    "q2": "Quand souhaitez-vous venir ?",
+    "jour": "Jour",
+    "lundi": "Lundi",
+    "jeudi": "Jeudi",
+    "egal": "Peu importe",
+    "egalTexte": "Selon les places",
+    "cycle": "Cycle",
+    "q3": "Comment vous joindre ?",
+    "nom": "Votre nom",
+    "email": "E-mail",
+    "tel": "Téléphone",
+    "message": "Une remarque ? (facultatif)",
+    "avs": "Le numéro AVS de votre enfant vous sera demandé à la confirmation, pour le soutien de Jeunesse+Sport.",
+    "accord": "J'accepte que l'école utilise ces données pour traiter ma demande.",
+    "donnees": "Vos données servent uniquement à traiter la demande d'inscription, selon la loi fédérale sur la protection des données (nLPD). <span class=\"a-completer\">Politique de confidentialité · à compléter</span>",
+    "q4": "Tout est juste ?",
+    "retour": "Retour",
+    "continuer": "Continuer",
+    "envoyer": "Envoyer la demande",
+    "finTitre": "Demande prête.",
+    "finTexte": "Dans le vrai site, l'école recevrait votre demande et vous confirmerait la place. Ici, rien n'a été envoyé.",
+    "recommencer": "Nouvelle demande",
+    "aside": {
+      "titre": "À retenir",
+      "l1": "Lundi et jeudi, 17 h 30 – 19 h 30",
+      "l2": "Piscine du collège du Verrney, Puidoux",
+      "l3": "CHF 195.– les 10 leçons de 45 minutes",
+      "telTexte": "Vous préférez téléphoner ?"
+    }
+  },
+  "contact": {
+    "ouverture": {
+      "surtitre": "Contact",
+      "titre": "Une question ? Appelez l'école.",
+      "texte": "Pour une inscription, un changement de groupe ou une simple question.",
+      "info": "Cours le lundi et le jeudi, 17 h 30 – 19 h 30"
+    },
+    "lieu": {
+      "titre": "Au collège du Verrney.",
+      "texte": "Les cours ont lieu à la piscine du collège du Verrney, à Puidoux. Le collège se trouve à Puidoux, au-dessus de Chexbres et du Léman.",
+      "plan": "Plan indicatif",
+      "lac": "Lac Léman",
+      "puidoux": "Puidoux",
+      "chexbres": "Chexbres",
+      "piscine": "Piscine du Verrney"
+    },
+    "horaires": {
+      "titre": "Les horaires.",
+      "lundi": "Lundi",
+      "jeudi": "Jeudi",
+      "heures": "17 h 30 – 19 h 30",
+      "note": "Pendant les périodes scolaires : septembre – décembre, janvier – mars, avril – juin."
+    },
+    "formulaire": {
+      "titre": "Écrire à l'école.",
+      "nom": "Votre nom",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "sujet": "Sujet",
+      "sujetInscription": "Une inscription",
+      "sujetGroupe": "Le choix du groupe",
+      "sujetAutre": "Autre question",
+      "message": "Votre message",
+      "donnees": "Vos données servent uniquement à vous répondre (nLPD). <span class=\"a-completer\">Politique de confidentialité · à compléter</span>",
+      "envoyer": "Envoyer",
+      "simule": "Maquette : le message est simulé, rien n'est envoyé."
+    }
+  },
+  "introuvable": {
+    "titre": "Perdu dans le grand bassin ?",
+    "texte": "Cette page n'existe pas, ou plus. Remontez à la surface : tout est sur l'accueil.",
+    "retour": "Retour à l'accueil",
+    "alt": "Une planche de natation jaune qui flotte seule au milieu du bassin"
+  }
+}

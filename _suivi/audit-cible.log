@@ -1,0 +1,21 @@
+… fichiers
+  fait en 0 s
+… mesures
+  17/33
+  fait en 52 s
+… mesures:balayage
+  fait en 20 s
+… parcours:intro
+  fait en 43 s
+… parcours:menu
+  fait en 5 s
+… parcours:liens
+  fait en 56 s
+… parcours:hauteur
+  fait en 28 s
+… parcours:projet
+  fait en 0 s
+
+Échecs : 1 · À regarder : 7 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/inscription --seulement=fichiers,parcours
+Rapport : /home/claude/esnatation-maquette/_audit/rapport/rapport.md (passe 20261123-160415-standard-cible-partiel)

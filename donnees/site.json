@@ -1,0 +1,18 @@
+{
+  "nom": "ESN École Suisse de Natation",
+  "nomCourt": "ESN",
+  "adresse": "https://esnatation-maquette.vercel.app",
+  "siteActuel": "www.esnatation.ch",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "cours", "ecole", "inscription", "contact"],
+  "actionEntete": { "page": "inscription" },
+  "couleurs": { "fond": "#F5FAFB", "texte": "#0B2230", "voile": "#0A62A8", "theme": "#F5FAFB", "ouverture": "#0A62A8", "menu": "#F5FAFB" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "076 391 44 54", "telephoneLien": "+41763914454", "email": "info@esnatation.ch", "adresse": "Piscine du collège du Verrney, Puidoux" },
+  "polices": ["/assets/fonts/unbounded.woff2", "/assets/fonts/figtree-400.woff2"],
+  "imagePartage": "accueil-bassin-1280.webp",
+  "curseur": true,
+  "prix": "CHF 195.–",
+  "fondation": 1995
+}

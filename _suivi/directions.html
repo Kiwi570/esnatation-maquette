@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESN, trois directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Figtree:wght@400;600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,500,100;1,9..144,500,100&family=Instrument+Sans:wght@400;600&family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: planche de travail claire, trois propositions côte à côte, sans bavardage
+   IDEA: trois nuanciers de piscine, chacun avec son premier écran en miniature
+   PICTURE: la miniature de l'ouverture de chaque direction, dessinée en CSS
+   COLOUR and TYPE: page neutre, chaque carte porte sa propre palette et ses polices
+   LAYOUT: trois colonnes sur ordinateur, empilées sur téléphone */
+:root{color-scheme:light dark;--bg:light-dark(#eef1f2,#14181b);--ink:light-dark(#15191c,#e9eef0);--doux:light-dark(#5b666c,#9aa7ad);--carte:light-dark(#fff,#1d2328)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Figtree",system-ui,sans-serif;overflow-x:clip}
+header{padding:clamp(24px,4vw,48px) max(5vw,16px) 8px;max-width:1400px;margin:auto}
+header h1{font:700 clamp(26px,3vw,38px)/1.1 "Figtree",sans-serif;margin:0 0 6px;text-wrap:balance}
+header p{margin:0;color:var(--doux);max-width:70ch}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:20px max(5vw,16px) 48px;max-width:1400px;margin:auto}
+@media(max-width:1000px){.grille{grid-template-columns:minmax(0,1fr)}}
+.carte{background:var(--carte);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.mini{position:relative;aspect-ratio:16/10;overflow:hidden;padding:7% 7% 0}
+.mini .titre{position:relative;z-index:2;margin:0}
+.mini .btn{position:relative;z-index:2;display:inline-block;margin-top:12px;padding:8px 14px;border-radius:99px;font-size:13px;font-weight:600}
+.mini .info{position:relative;z-index:2;font-size:12px;margin-top:10px;opacity:.85}
+.corps{padding:18px 20px 22px;display:grid;gap:12px}
+.corps h2{margin:0;font:700 20px/1.2 "Figtree",sans-serif}
+.reco{font-size:12px;font-weight:600;padding:3px 9px;border-radius:99px;background:#0a62a8;color:#fff;margin-left:6px;vertical-align:3px}
+.nuancier{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.nuancier div{border-radius:10px;height:54px;padding:6px;font-size:11px;display:flex;align-items:flex-end;border:1px solid rgba(0,0,0,.08)}
+.polices{display:grid;gap:4px;font-size:14px;color:var(--doux)}
+.polices b{color:var(--ink);font-weight:400;font-size:22px;display:block;line-height:1.15}
+ul{margin:0;padding-left:1.1em;font-size:15px}
+li{margin:3px 0}
+.proche{font-size:14px;color:var(--doux)}
+
+/* A : reflets */
+.a{background:#f5fafb;color:#0b2230}
+.a::before{content:"";position:absolute;inset:0;background:
+ radial-gradient(40% 28% at 70% 30%,rgba(10,98,168,.16),transparent 70%),
+ radial-gradient(30% 22% at 30% 70%,rgba(10,98,168,.12),transparent 70%),
+ repeating-linear-gradient(0deg,transparent 0 23px,rgba(11,34,48,.06) 23px 24px),
+ repeating-linear-gradient(90deg,transparent 0 23px,rgba(11,34,48,.06) 23px 24px)}
+.a::after{content:"";position:absolute;inset:-20%;background:
+ radial-gradient(closest-side,rgba(255,255,255,.9),transparent) 20% 20%/90px 40px no-repeat,
+ radial-gradient(closest-side,rgba(255,255,255,.9),transparent) 60% 45%/120px 30px no-repeat,
+ radial-gradient(closest-side,rgba(255,255,255,.8),transparent) 80% 75%/80px 36px no-repeat;animation:reflet 6s ease-in-out infinite alternate}
+@keyframes reflet{to{transform:translate(4%,3%) rotate(2deg)}}
+.a .titre{font:700 clamp(20px,2.3vw,30px)/1.08 "Unbounded",sans-serif;letter-spacing:-.02em}
+.a .titre em{font-style:normal;color:#0a62a8}
+.a .btn{background:#e5332a;color:#fff}
+.ligne{position:absolute;left:0;right:0;bottom:14%;height:14px;z-index:2;display:flex;gap:3px;padding:0 4%}
+.ligne span{flex:1;border-radius:7px;background:#e5332a}
+.ligne span:nth-child(even){background:#fff;border:1px solid #d5dde0}
+@media (prefers-reduced-motion:no-preference){.ligne span{animation:flot 2.4s ease-in-out infinite}.ligne span:nth-child(3n){animation-delay:-.8s}.ligne span:nth-child(3n+1){animation-delay:-1.6s}}
+@keyframes flot{50%{transform:translateY(-3px)}}
+
+/* B : Lavaux */
+.b{background:linear-gradient(#faf7f0 0 52%,#cfe0e6 52% 60%,#1e5e86 60%);color:#1d2a2f}
+.b::before{content:"";position:absolute;left:0;right:0;top:40%;height:20%;z-index:1;background:
+ repeating-linear-gradient(170deg,transparent 0 10px,rgba(78,107,47,.35) 10px 12px)}
+.b .titre{font:500 clamp(22px,2.4vw,32px)/1.05 "Fraunces",serif;font-variation-settings:"SOFT" 100,"opsz" 120}
+.b .titre em{color:#1e5e86}
+.b .btn{background:#e77a2e;color:#1d1408}
+.b .info{color:#1d2a2f}
+
+/* C : bassin pop */
+.c{background:#ffffff;color:#10233d}
+.c::before{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:#19b5c9;border-radius:50% 50% 0 0/14% 14% 0 0}
+.c .titre{font:700 clamp(22px,2.4vw,32px)/1.05 "Fredoka",sans-serif}
+.c .titre em{font-style:normal;color:#0f8ea0}
+.c .btn{background:#ffd23f;color:#10233d}
+.objet{position:absolute;z-index:2;border-radius:12px}
+.planche{width:22%;height:14%;background:#ffd23f;right:8%;bottom:30%;transform:rotate(-8deg)}
+.frite{width:46%;height:6%;background:#ff7a59;right:4%;bottom:18%;border-radius:99px;transform:rotate(4deg)}
+.bouee{width:16%;aspect-ratio:1;background:radial-gradient(circle,transparent 34%,#fff 35% 50%,#10233d 51% 54%,transparent 55%);right:36%;bottom:8%}
+</style>
+</head>
+<body>
+<header>
+  <h1>ESN, École Suisse de Natation : trois directions</h1>
+  <p>Chaque carte montre le premier écran en miniature, la palette, les polices, l’idée qui relie le site et ses animations principales. Les textes viennent du site actuel ; les couleurs, de ses photos.</p>
+</header>
+<main class="grille">
+
+  <article class="carte">
+    <div class="mini a">
+      <p class="titre">Apprendre à nager, <em>à son rythme.</em></p>
+      <span class="btn">Demander une inscription</span>
+      <p class="info">Dès 4 ans · 12 enfants au plus · CHF 195.– les 10 leçons</p>
+      <div class="ligne" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="corps">
+      <h2>A · Reflets du bassin <span class="reco">Recommandé</span></h2>
+      <div class="nuancier" aria-label="Palette">
+        <div style="background:#f5fafb">fond</div>
+        <div style="background:#e3f1f4">2ᵉ fond</div>
+        <div style="background:#0a62a8;color:#fff">bleu bassin</div>
+        <div style="background:#e5332a;color:#fff">rouge flotteur</div>
+        <div style="background:#0b2230;color:#fff">texte</div>
+      </div>
+      <div class="polices"><span><b style="font-family:Unbounded;font-weight:700">Unbounded</b>titres, larges et ronds</span><span><b style="font-family:Figtree">Figtree</b>texte</span></div>
+      <ul>
+        <li>Les vraies couleurs de la piscine du Verrney (photos du site) : carrelage blanc, eau turquoise, bleu franc, lignes d’eau rouge et blanc.</li>
+        <li>Ouverture : reflets de lumière (caustiques) qui dansent sur le carrelage et le grand titre, en WebGL léger.</li>
+        <li>Idée : la ligne d’eau à 10 flotteurs, les 10 levels. Elle sépare les sections en ondulant au défilement et sert de sélecteur de groupe sur la page des cours.</li>
+        <li>Intro : le poisson du logo se dessine d’un trait, son œil en spirale devient des ronds dans l’eau qui ouvrent la page ; même geste pour les transitions.</li><li>Photos : les vraies photos de groupes, en grandes cartes bien cadrées ; les images générées complètent (eau, matériel, lumière).</li>
+      </ul>
+      <p class="proche">Niveau visé : Fit-Tri (un seul système, outils utiles), avec la clarté de Nolanis.</p>
+    </div>
+  </article>
+
+  <article class="carte">
+    <div class="mini b">
+      <p class="titre">De la découverte de l’eau <em>au dauphin.</em></p>
+      <span class="btn">Demander une inscription</span>
+      <p class="info">Puidoux-Chexbres · depuis 1995</p>
+    </div>
+    <div class="corps">
+      <h2>B · Lavaux, au bord du Léman</h2>
+      <div class="nuancier" aria-label="Palette">
+        <div style="background:#faf7f0">fond</div>
+        <div style="background:#e6ede2">2ᵉ fond</div>
+        <div style="background:#1e5e86;color:#fff">bleu Léman</div>
+        <div style="background:#e77a2e">abricot</div>
+        <div style="background:#1d2a2f;color:#fff">texte</div>
+      </div>
+      <div class="polices"><span><b style="font-family:Fraunces;font-variation-settings:'SOFT' 100">Fraunces douce</b>titres, un mot en italique</span><span><b style="font-family:'Instrument Sans'">Instrument Sans</b>texte</span></div>
+      <ul>
+        <li>Éditorial et chaleureux : l’école ancrée dans son coin de pays, vignes et lac.</li>
+        <li>Ouverture : le Léman vu des terrasses de Lavaux, surface du lac qui ondule au défilement.</li>
+        <li>Idée : les terrasses comme paliers de progression, les 5 groupes descendent vers l’eau.</li>
+        <li>Intro : la ligne d’horizon se trace, le titre monte comme un reflet.</li>
+      </ul>
+      <p class="proche">Niveau visé : Les Plus Hautes Eaux (nappe d’eau) et la mise en page de Cirenza.</p>
+    </div>
+  </article>
+
+  <article class="carte">
+    <div class="mini c">
+      <p class="titre">On plonge ? <em>Dès 4 ans.</em></p>
+      <span class="btn">Demander une inscription</span>
+      <p class="info">Lundi et jeudi · 17 h 30 – 19 h 30</p>
+      <span class="objet planche" aria-hidden="true"></span><span class="objet frite" aria-hidden="true"></span><span class="objet bouee" aria-hidden="true"></span>
+    </div>
+    <div class="corps">
+      <h2>C · Bassin pop</h2>
+      <div class="nuancier" aria-label="Palette">
+        <div style="background:#ffffff">fond</div>
+        <div style="background:#19b5c9">turquoise</div>
+        <div style="background:#ffd23f">jaune planche</div>
+        <div style="background:#ff7a59">orange frite</div>
+        <div style="background:#10233d;color:#fff">texte</div>
+      </div>
+      <div class="polices"><span><b style="font-family:Fredoka;font-weight:700">Fredoka</b>titres, ronds et gais</span><span><b style="font-family:Nunito">Nunito</b>texte</span></div>
+      <ul>
+        <li>Ludique et franc, avec les couleurs des bonnets qu’on voit sur les photos de groupes.</li>
+        <li>Ouverture : planches, frites et bouées dessinées qui flottent sur une eau qui ondule, qu’on peut pousser du doigt.</li>
+        <li>Idée : le matériel de la piscine, un objet par groupe.</li>
+        <li>Intro : les objets tombent dans l’eau, rebondissent et se rangent.</li>
+      </ul>
+      <p class="proche">Niveau visé : Dépannage 60 et Laure Polin (petites animations fun). Risque : plus enfantin, moins rassurant pour les parents.</p>
+    </div>
+  </article>
+
+</main>
+</body>
+</html>

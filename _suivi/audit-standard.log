@@ -1,0 +1,41 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 35 s
+… mesures
+  20/66
+  42/66
+  64/66
+  fait en 95 s
+… mesures:balayage
+  fait en 32 s
+… films
+  fait en 145 s
+… bords
+  fait en 70 s
+… parcours:intro
+  fait en 65 s
+… parcours:menu
+  fait en 5 s
+… parcours:liens
+  fait en 73 s
+… parcours:hauteur
+  fait en 45 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 15 s
+… fluidite
+  fait en 184 s
+… mouvement
+  fait en 112 s
+… vitesse
+  fait en 17 s
+… captures
+  fait en 128 s
+… safari
+  fait en 0 s
+
+Échecs : 369 · À regarder : 28 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --seulement=fichiers,mesures
+Rapport : /home/claude/esnatation-maquette/_audit/rapport/rapport.md (passe 20261123-152421-standard)

@@ -1,0 +1,17 @@
+{
+ "id": "20261123-160415-standard-cible-partiel",
+ "date": "2026-11-23T16:07:39.143Z",
+ "niveau": "standard",
+ "pages": "/,/cours,/inscription",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "parcours"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 7,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ESN École Suisse de Natation, Puidoux-Chexbres : cours de natation pour enfants dès 4 ans</title>
+<meta name="description" content="Cours de natation en groupe de 12 enfants au plus, dès 4 ans révolus, à la piscine du Verrney à Puidoux. Cycles de 10 leçons de 45 minutes, CHF 195.–.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://esnatation-maquette.vercel.app/">
+<style>:root{--fond:#F5FAFB;--texte:#0B2230;--voile-fond:#0A62A8;--ouverture-fond:#0A62A8;--menu-fond:#F5FAFB}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F5FAFB">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ESN École Suisse de Natation">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="ESN École Suisse de Natation, Puidoux-Chexbres : cours de natation pour enfants dès 4 ans">
+<meta property="og:description" content="Cours de natation en groupe de 12 enfants au plus, dès 4 ans révolus, à la piscine du Verrney à Puidoux. Cycles de 10 leçons de 45 minutes, CHF 195.–.">
+<meta property="og:url" content="https://esnatation-maquette.vercel.app/">
+<meta property="og:image" content="https://esnatation-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ESN, apprendre à nager à son rythme : bassin vu du dessus">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"ESN École Suisse de Natation de Puidoux-Chexbres","url":"https://esnatation-maquette.vercel.app/","telephone":"+41763914454","email":"info@esnatation.ch","foundingDate":"1995","address":{"@type":"PostalAddress","addressLocality":"Puidoux","addressRegion":"VD","addressCountry":"CH"},"description":"Cours de natation en groupe pour enfants dès 4 ans révolus, 12 enfants au maximum, à la piscine du collège du Verrney à Puidoux. Cycles de 10 leçons de 45 minutes pendant les périodes scolaires, avec le soutien de Jeunesse+Sport."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><span class="voile-anneau"></span><span class="voile-anneau voile-anneau--2"></span><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="84" height="61"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-poisson" data-ouverture-objet>
+    <svg viewBox="0 0 898 649" aria-hidden="true"><path class="poisson-trait" fill-rule="evenodd" d="M29 212C28 212 26 214 24 215C22 216 21 216 19 217C17 218 16 219 14 220C12 221 10 222 9 224C8 226 7 228 7 229C7 230 9 232 10 233C11 234 13 233 15 233C17 233 18 232 20 231C22 230 24 228 25 227C26 226 27 224 28 222C29 220 30 219 30 217C30 215 30 213 30 212C30 211 30 212 29 212Z M18 65C16 66 15 68 14 70C13 72 13 73 13 75C13 77 13 78 13 80C13 82 13 83 14 85C15 87 16 88 17 90C18 92 20 95 21 95C22 95 22 92 22 91C22 90 24 88 24 86C24 84 25 83 25 81C25 79 26 78 26 76C26 74 26 73 25 71C24 69 24 67 23 66C22 65 20 64 18 65Z M64 64C63 64 62 66 61 67C60 68 60 69 59 70C58 71 58 72 58 73C58 74 57 75 57 76C57 77 56 78 56 79C56 80 56 81 57 81C58 81 59 80 60 80C61 80 62 79 63 78C64 77 65 77 66 76C67 75 67 74 67 73C67 72 68 71 68 70C68 69 68 68 68 67C68 66 68 64 67 64C66 64 65 64 64 64Z M644 6C642 6 639 7 637 7C635 7 632 8 630 8C628 8 625 8 623 9C621 10 618 10 616 11C614 12 611 11 609 12C607 13 604 14 602 15C600 16 597 16 595 17C593 18 590 20 588 21C586 22 583 23 581 24C579 25 576 27 574 29C572 31 569 32 567 34C565 36 562 38 560 39C558 40 555 42 553 43C551 44 548 46 546 48C544 50 541 51 539 53C537 55 534 56 532 58C530 60 527 61 525 63C523 65 520 67 518 69C516 71 513 73 511 75C509 77 506 79 504 81C502 83 499 86 497 88C495 90 493 92 491 94C489 96 486 99 484 101C482 103 480 106 478 108C476 110 474 113 472 115C470 117 469 120 468 122C467 124 465 127 464 129C463 131 461 134 460 136C459 138 457 141 456 143C455 145 453 148 452 150C451 152 450 155 449 157C448 159 446 162 445 164C444 166 442 169 441 171C440 173 439 176 438 178C437 180 435 183 434 185C433 187 432 190 431 192C430 194 429 197 428 199C427 201 427 204 426 206C425 208 425 211 424 213C423 215 422 218 422 220C422 222 422 225 421 227C420 229 420 232 419 234C418 236 418 239 417 241C416 243 416 246 416 248C416 250 415 253 414 255C413 257 414 261 412 262C410 263 407 263 405 262C403 261 400 259 398 257C396 255 393 254 391 252C389 250 386 248 384 246C382 244 379 243 377 241C375 239 372 238 370 236C368 234 365 232 363 230C361 228 358 227 356 225C354 223 351 222 349 220C347 218 344 217 342 215C340 213 337 210 335 208C333 206 330 203 328 201C326 199 323 196 321 194C319 192 316 190 314 188C312 186 309 185 307 184C305 183 302 182 300 181C298 180 295 179 293 178C291 177 288 175 286 174C284 173 281 172 279 171C277 170 274 169 272 168C270 167 267 166 265 165C263 164 260 163 258 162C256 161 253 160 251 159C249 158 246 157 244 156C242 155 239 154 237 153C235 152 232 151 230 150C228 149 225 148 223 147C221 146 218 145 216 144C214 143 211 142 209 141C207 140 204 140 202 139C200 138 197 137 195 136C193 135 190 135 188 134C186 133 183 133 181 132C179 131 176 131 174 130C172 129 169 129 167 128C165 127 162 127 160 126C158 125 155 125 153 124C151 123 148 123 146 122C144 121 141 121 139 120C137 119 134 118 132 118C130 118 127 118 125 117C123 116 120 116 118 115C116 114 113 114 111 114C109 114 106 113 104 113C102 113 99 114 97 114C95 114 92 115 90 116C88 117 85 117 83 118C81 119 78 119 76 120C74 121 71 121 69 122C67 123 64 124 62 124C60 124 57 124 55 125C53 126 50 126 48 127C46 128 43 127 41 128C39 129 36 130 34 131C32 132 28 134 27 136C26 138 28 141 30 143C32 145 34 148 36 150C38 152 40 155 42 157C44 159 46 162 48 164C50 166 52 169 54 171C56 173 58 176 60 178C62 180 65 183 67 185C69 187 71 190 73 192C75 194 77 197 79 199C81 201 82 204 84 206C86 208 87 211 89 213C91 215 92 218 94 220C96 222 97 225 98 227C99 229 100 232 102 234C104 236 106 239 107 241C108 243 110 246 111 248C112 250 114 253 115 255C116 257 118 260 119 262C120 264 122 267 123 269C124 271 126 274 127 276C128 278 130 281 131 283C132 285 134 288 135 290C136 292 138 295 139 297C140 299 142 302 143 304C144 306 145 309 146 311C147 313 149 316 150 318C151 320 152 323 153 325C154 327 155 330 156 332C157 334 158 337 159 339C160 341 160 344 161 346C162 348 162 351 163 353C164 355 164 358 164 360C164 362 166 365 166 367C166 369 167 372 167 374C167 376 167 379 167 381C167 383 168 386 168 388C168 390 169 393 169 395C169 397 169 400 169 402C169 404 170 407 170 409C170 411 170 414 170 416C170 418 171 421 171 423C171 425 171 428 171 430C171 432 171 435 171 437C171 439 172 442 172 444C172 446 172 449 172 451C172 453 172 456 172 458C172 460 173 463 173 465C173 467 173 470 173 472C173 474 173 477 173 479C173 481 173 484 173 486C173 488 173 491 173 493C173 495 174 498 174 500C174 502 174 505 174 507C174 509 174 512 174 514C174 516 174 519 174 521C174 523 174 526 174 528C174 530 173 533 173 535C173 537 173 540 173 542C173 544 173 547 173 549C173 551 172 554 172 556C172 558 172 561 172 563C172 565 172 568 172 570C172 572 171 575 171 577C171 579 171 582 171 584C171 586 171 589 171 591C171 593 171 596 171 598C171 600 171 603 171 605C171 607 172 610 172 612C172 614 172 617 172 619C172 621 173 624 173 626C173 628 174 631 174 633C174 635 175 639 176 640C177 641 180 642 182 641C184 640 188 639 189 637C190 635 190 632 191 630C192 628 194 625 195 623C196 621 198 618 199 616C200 614 201 611 202 609C203 607 205 604 206 602C207 600 208 597 210 595C212 593 214 590 215 588C216 586 218 583 219 581C220 579 222 576 223 574C224 572 226 569 228 567C230 565 231 562 233 560C235 558 236 555 238 553C240 551 242 548 244 546C246 544 249 541 251 539C253 537 256 535 258 533C260 531 263 529 265 527C267 525 270 523 272 521C274 519 277 517 279 515C281 513 284 511 286 509C288 507 291 505 293 503C295 501 298 499 300 497C302 495 305 492 307 490C309 488 312 486 314 484C316 482 319 480 321 478C323 476 326 475 328 473C330 471 333 469 335 467C337 465 340 464 342 462C344 460 347 458 349 456C351 454 354 452 356 450C358 448 361 445 363 443C365 441 368 439 370 437C372 435 375 432 377 430C379 428 382 425 384 423C386 421 389 418 391 416C393 414 395 411 397 409C399 407 402 404 404 402C406 400 408 397 410 395C412 393 414 390 415 388C416 386 418 383 419 381C420 379 422 376 424 374C426 372 427 369 429 367C431 365 432 362 434 360C436 358 439 353 441 353C443 353 445 357 446 359C447 361 448 364 449 366C450 368 450 371 451 373C452 375 453 378 454 380C455 382 455 385 456 387C457 389 458 392 459 394C460 396 461 399 462 401C463 403 464 406 466 408C468 410 469 413 471 415C473 417 475 420 477 422C479 424 481 427 483 429C485 431 488 433 490 435C492 437 495 440 497 442C499 444 502 446 504 448C506 450 509 451 511 453C513 455 516 456 518 458C520 460 523 462 525 463C527 464 530 464 532 465C534 466 537 466 539 467C541 468 544 468 546 468C548 468 551 468 553 469C555 470 558 470 560 471C562 472 565 472 567 472C569 472 572 473 574 473C576 473 579 474 581 474C583 474 586 476 588 476C590 476 593 477 595 477C597 477 600 478 602 478C604 478 607 479 609 479C611 479 614 480 616 480C618 480 621 480 623 480C625 480 628 481 630 481C632 481 635 481 637 481C639 481 642 481 644 481C646 481 649 480 651 480C653 480 656 479 658 479C660 479 663 478 665 478C667 478 670 478 672 478C674 478 677 477 679 477C681 477 684 476 686 476C688 476 691 475 693 475C695 475 698 474 700 474C702 474 705 473 707 472C709 471 712 471 714 470C716 469 719 469 721 468C723 467 726 466 728 465C730 464 733 463 735 462C737 461 740 459 742 458C744 457 747 455 749 454C751 453 754 451 756 450C758 449 761 448 763 446C765 444 768 443 770 441C772 439 775 438 777 436C779 434 782 432 784 430C786 428 789 426 791 424C793 422 796 419 798 417C800 415 802 412 804 410C806 408 809 405 811 403C813 401 815 398 817 396C819 394 821 391 823 389C825 387 827 384 829 382C831 380 832 377 834 375C836 373 838 370 840 368C842 366 843 363 845 361C847 359 849 356 851 354C853 352 854 349 856 347C858 345 858 342 860 340C862 338 864 335 865 333C866 331 868 328 869 326C870 324 872 321 873 319C874 317 876 314 877 312C878 310 879 307 880 305C881 303 882 300 883 298C884 296 885 293 886 291C887 289 887 286 888 284C889 282 890 279 890 277C890 275 891 272 891 270C891 268 891 265 891 263C891 261 892 258 892 256C892 254 891 251 891 249C891 247 891 244 891 242C891 240 890 237 890 235C890 233 889 230 889 228C889 226 888 223 888 221C888 219 887 216 887 214C887 212 886 209 886 207C886 205 884 202 884 200C884 198 884 195 883 193C882 191 882 188 881 186C880 184 878 181 876 180C874 179 871 180 869 181C867 182 864 184 862 185C860 186 857 186 855 186C853 186 850 186 848 187C846 188 844 190 842 192C840 194 840 197 838 199C836 201 835 204 833 206C831 208 828 210 826 211C824 212 821 214 819 215C817 216 814 218 812 220C810 222 808 224 806 226C804 228 801 230 799 232C797 234 794 236 792 238C790 240 787 242 785 244C783 246 780 248 778 250C776 252 773 254 771 256C769 258 766 259 764 261C762 263 759 264 757 266C755 268 752 269 750 271C748 273 745 274 743 276C741 278 738 279 736 280C734 281 731 283 729 284C727 285 724 286 722 287C720 288 717 289 715 290C713 291 710 292 708 293C706 294 703 294 701 295C699 296 696 297 694 298C692 299 689 299 687 299C685 299 681 299 680 298C679 297 681 293 683 291C685 289 688 288 690 287C692 286 695 284 697 283C699 282 702 280 704 279C706 278 709 276 711 275C713 274 716 272 718 271C720 270 723 268 725 266C727 264 730 264 732 262C734 260 737 258 739 257C741 256 744 254 746 253C748 252 751 250 753 248C755 246 758 245 760 243C762 241 765 240 767 238C769 236 772 234 774 232C776 230 779 229 781 227C783 225 786 223 788 221C790 219 793 216 795 214C797 212 799 209 801 207C803 205 806 202 808 200C810 198 812 195 814 193C816 191 818 188 820 186C822 184 823 181 825 179C827 177 829 174 831 172C833 170 834 167 836 165C838 163 840 160 841 158C842 156 844 153 845 151C846 149 848 146 849 144C850 142 852 139 852 137C852 135 853 132 852 130C851 128 848 125 846 123C844 121 843 118 841 116C839 114 837 111 835 109C833 107 831 104 829 102C827 100 825 97 823 95C821 93 819 90 817 88C815 86 812 83 810 81C808 79 805 76 803 74C801 72 798 70 796 68C794 66 791 64 789 62C787 60 784 58 782 56C780 54 777 52 775 50C773 48 770 47 768 45C766 43 763 42 761 40C759 38 756 36 754 35C752 34 749 32 747 31C745 30 742 27 740 26C738 25 735 24 733 23C731 22 728 20 726 19C724 18 721 17 719 16C717 15 714 15 712 14C710 13 707 13 705 12C703 11 700 10 698 10C696 10 693 9 691 9C689 9 686 8 684 8C682 8 679 7 677 7C675 7 672 6 670 6C668 6 665 6 663 6C661 6 658 6 656 6C654 6 651 6 649 6C647 6 646 6 644 6Z M652 27C654 27 657 26 659 26C661 26 664 26 666 26C668 26 671 27 673 27C675 27 678 28 680 28C682 28 685 28 687 29C689 30 692 30 694 31C696 32 699 32 701 33C703 34 706 34 708 35C710 36 713 37 715 38C717 39 720 40 722 41C724 42 727 43 729 44C731 45 734 45 736 46C738 47 741 49 743 50C745 51 748 52 750 53C752 54 755 56 757 58C759 60 762 61 764 63C766 65 769 66 771 68C773 70 776 72 778 74C780 76 783 78 785 80C787 82 790 85 792 87C794 89 797 91 799 93C801 95 804 98 806 100C808 102 811 104 813 106C815 108 818 110 820 112C822 114 824 117 826 119C828 121 829 124 830 126C831 128 831 131 831 133C831 135 831 138 830 140C829 142 828 145 826 147C824 149 822 152 820 154C818 156 815 159 813 161C811 163 808 166 806 168C804 170 801 173 799 175C797 177 795 180 793 182C791 184 789 187 787 189C785 191 782 193 780 195C778 197 775 200 773 202C771 204 768 206 766 208C764 210 761 212 759 214C757 216 754 218 752 220C750 222 747 224 745 226C743 228 740 230 738 232C736 234 733 236 731 238C729 240 726 242 724 244C722 246 719 247 717 249C715 251 712 253 710 255C708 257 705 258 703 260C701 262 698 264 696 266C694 268 691 269 689 271C687 273 684 274 682 276C680 278 677 279 675 281C673 283 670 284 668 286C666 288 663 289 661 290C659 291 656 293 654 294C652 295 649 296 647 297C645 298 642 299 640 300C638 301 635 301 633 302C631 303 628 304 626 304C624 304 621 305 619 305C617 305 614 306 612 306C610 306 607 305 605 305C603 305 600 305 598 305C596 305 593 304 591 304C589 304 586 303 584 302C582 301 579 300 577 299C575 298 572 296 570 294C568 292 565 289 563 287C561 285 558 282 556 280C554 278 551 277 549 275C547 273 544 270 543 268C542 266 541 263 540 261C539 259 538 256 538 254C538 252 537 249 537 247C537 245 537 242 537 240C537 238 537 235 537 233C537 231 538 228 539 226C540 224 540 221 541 219C542 217 542 214 543 212C544 210 546 207 547 205C548 203 549 200 550 198C551 196 552 193 553 191C554 189 556 186 557 184C558 182 560 179 561 177C562 175 563 172 564 170C565 168 567 165 568 163C569 161 571 158 572 156C573 154 574 151 575 149C576 147 578 144 579 142C580 140 582 137 584 135C586 133 588 130 590 128C592 126 595 124 597 122C599 120 602 119 604 118C606 117 609 115 611 114C613 113 616 111 618 110C620 109 623 109 625 108C627 107 630 106 632 105C634 104 637 104 639 104C641 104 644 103 646 103C648 103 651 104 653 104C655 104 658 104 660 105C662 106 665 107 667 109C669 111 672 113 674 115C676 117 678 120 680 122C682 124 683 127 684 129C685 131 685 134 685 136C685 138 686 141 686 143C686 145 685 148 685 150C685 152 684 155 684 157C684 159 683 162 682 164C681 166 680 169 679 171C678 173 676 176 675 178C674 180 672 183 670 185C668 187 667 190 665 192C663 194 660 197 658 199C656 201 653 203 651 205C649 207 646 208 644 209C642 210 639 211 637 211C635 211 632 210 630 209C628 208 625 207 623 205C621 203 619 200 619 198C619 196 620 193 621 191C622 189 625 187 627 185C629 183 632 181 634 179C636 177 639 176 641 174C643 172 644 169 645 167C646 165 647 162 647 160C647 158 646 155 646 153C646 151 645 148 644 146C643 144 640 142 638 141C636 140 633 142 631 142C629 142 626 143 624 144C622 145 619 145 617 146C615 147 612 149 610 151C608 153 606 155 604 157C602 159 600 162 599 164C598 166 597 169 596 171C595 173 594 176 594 178C594 180 593 183 593 185C593 187 592 190 592 192C592 194 592 197 592 199C592 201 592 204 592 206C592 208 594 211 595 213C596 215 597 218 599 220C601 222 603 225 605 227C607 229 609 231 611 233C613 235 616 236 618 237C620 238 623 239 625 239C627 239 630 239 632 239C634 239 637 238 639 238C641 238 644 238 646 237C648 236 651 236 653 235C655 234 658 233 660 232C662 231 665 230 667 229C669 228 672 227 674 226C676 225 679 223 681 222C683 221 686 220 688 218C690 216 692 213 694 211C696 209 696 206 697 204C698 202 700 199 701 197C702 195 702 192 703 190C704 188 704 185 705 183C706 181 706 178 707 176C708 174 708 171 709 169C710 167 710 164 710 162C710 160 711 157 711 155C711 153 712 150 712 148C712 146 712 143 712 141C712 139 712 136 712 134C712 132 711 129 710 127C709 125 709 122 708 120C707 118 706 115 705 113C704 111 703 108 701 106C699 104 696 101 694 99C692 97 689 95 687 93C685 91 682 90 680 89C678 88 675 87 673 86C671 85 668 85 666 84C664 83 661 82 659 82C657 82 654 82 652 82C650 82 647 82 645 82C643 82 640 82 638 82C636 82 633 83 631 83C629 83 626 84 624 84C622 84 619 85 617 86C615 87 612 88 610 89C608 90 605 91 603 92C601 93 598 94 596 96C594 98 591 99 589 101C587 103 584 105 582 107C580 109 578 112 576 114C574 116 573 119 571 121C569 123 568 126 566 128C564 130 563 133 561 135C559 137 558 140 556 142C554 144 554 147 552 149C550 151 548 154 547 156C546 158 544 161 543 163C542 165 540 168 539 170C538 172 536 175 535 177C534 179 533 182 532 184C531 186 529 189 528 191C527 193 526 196 525 198C524 200 523 203 522 205C521 207 521 210 520 212C519 214 518 217 518 219C518 221 517 224 517 226C517 228 516 231 516 233C516 235 516 238 516 240C516 242 516 245 516 247C516 249 517 252 517 254C517 256 518 259 518 261C518 263 519 266 519 268C519 270 520 273 520 275C520 277 521 280 522 282C523 284 524 287 526 289C528 291 529 294 531 296C533 298 536 301 538 303C540 305 543 308 545 310C547 312 550 314 552 316C554 318 557 320 559 321C561 322 564 323 566 324C568 325 571 326 573 326C575 326 578 327 580 327C582 327 585 328 587 328C589 328 592 327 594 327C596 327 599 327 601 327C603 327 606 326 608 326C610 326 613 326 615 326C617 326 620 325 622 325C624 325 627 324 629 324C631 324 634 324 636 324C638 324 641 323 643 323C645 323 648 323 650 323C652 323 655 323 657 323C659 323 662 323 664 323C666 323 669 322 671 322C673 322 676 322 678 322C680 322 683 321 685 321C687 321 690 320 692 320C694 320 697 319 699 318C701 317 704 317 706 316C708 315 711 313 713 311C715 309 717 306 719 304C721 302 724 300 726 298C728 296 731 295 733 294C735 293 738 291 740 290C742 289 745 287 747 286C749 285 752 284 754 283C756 282 759 280 761 279C763 278 766 276 768 275C770 274 773 272 775 271C777 270 780 268 782 266C784 264 787 262 789 260C791 258 794 257 796 255C798 253 801 251 803 249C805 247 808 245 810 243C812 241 815 240 817 238C819 236 822 234 824 232C826 230 829 228 831 226C833 224 836 221 838 219C840 217 842 214 844 212C846 210 849 208 851 206C853 204 856 203 858 202C860 201 863 201 865 202C867 203 870 205 872 207C874 209 874 212 875 214C876 216 876 219 877 221C878 223 878 226 878 228C878 230 878 233 878 235C878 237 878 240 878 242C878 244 878 247 878 249C878 251 877 254 877 256C877 258 876 261 876 263C876 265 876 268 875 270C874 272 874 275 873 277C872 279 872 282 871 284C870 286 870 289 869 291C868 293 867 296 866 298C865 300 864 303 863 305C862 307 860 310 859 312C858 314 857 317 856 319C855 321 853 324 851 326C849 328 848 331 846 333C844 335 843 338 841 340C839 342 837 345 835 347C833 349 831 352 829 354C827 356 826 359 824 361C822 363 820 366 818 368C816 370 814 373 812 375C810 377 809 380 807 382C805 384 803 387 801 389C799 391 796 394 794 396C792 398 789 400 787 402C785 404 782 406 780 407C778 408 775 410 773 411C771 412 768 412 766 413C764 414 761 416 759 417C757 418 754 419 752 420C750 421 747 423 745 424C743 425 740 427 738 428C736 429 733 430 731 432C729 434 726 436 724 437C722 438 719 440 717 441C715 442 712 443 710 444C708 445 705 447 703 448C701 449 698 450 696 451C694 452 691 452 689 453C687 454 684 454 682 455C680 456 677 456 675 457C673 458 670 458 668 458C666 458 663 460 661 460C659 460 656 461 654 461C652 461 649 461 647 461C645 461 642 462 640 462C638 462 635 463 633 463C631 463 628 463 626 463C624 463 621 463 619 463C617 463 614 463 612 463C610 463 607 462 605 462C603 462 600 461 598 460C596 459 593 458 591 457C589 456 586 456 584 455C582 454 579 454 577 453C575 452 572 451 570 450C568 449 565 449 563 448C561 447 558 447 556 446C554 445 551 445 549 444C547 443 544 443 542 442C540 441 537 440 535 439C533 438 530 438 528 437C526 436 523 435 521 434C519 433 516 431 514 430C512 429 509 428 507 426C505 424 502 423 500 421C498 419 495 417 493 415C491 413 488 410 486 408C484 406 483 403 481 401C479 399 477 396 475 394C473 392 472 389 471 387C470 385 468 382 467 380C466 378 465 375 464 373C463 371 462 368 461 366C460 364 459 361 458 359C457 357 456 354 454 352C452 350 451 347 449 345C447 343 444 340 442 338C440 336 437 337 435 336C433 335 430 334 428 334C426 334 423 334 421 335C419 336 416 338 414 340C412 342 410 345 409 347C408 349 406 352 405 354C404 356 402 359 400 361C398 363 396 366 395 368C394 370 392 373 391 375C390 377 388 380 386 382C384 384 383 387 381 389C379 391 377 394 375 396C373 398 372 401 370 403C368 405 366 408 364 410C362 412 360 415 358 417C356 419 354 422 352 424C350 426 347 429 345 431C343 433 341 436 339 438C337 440 334 443 332 445C330 447 328 450 326 452C324 454 321 456 319 458C317 460 314 462 312 464C310 466 307 467 305 469C303 471 300 472 298 474C296 476 293 478 291 480C289 482 286 483 284 485C282 487 279 488 277 490C275 492 272 493 270 495C268 497 265 499 263 501C261 503 258 505 256 507C254 509 251 512 249 514C247 516 245 519 243 521C241 523 239 526 237 528C235 530 233 532 231 534C229 536 226 539 224 541C222 543 219 546 217 548C215 550 212 552 210 553C208 554 205 556 203 556C201 556 198 557 196 556C194 555 192 552 191 550C190 548 190 545 190 543C190 541 189 538 189 536C189 534 190 531 190 529C190 527 190 524 190 522C190 520 191 517 191 515C191 513 192 510 192 508C192 506 192 503 192 501C192 499 193 496 193 494C193 492 194 489 194 487C194 485 194 482 194 480C194 478 193 475 193 473C193 471 193 468 193 466C193 464 193 461 193 459C193 457 193 454 193 452C193 450 192 447 192 445C192 443 192 440 192 438C192 436 191 433 191 431C191 429 191 426 191 424C191 422 190 419 190 417C190 415 189 412 189 410C189 408 189 405 189 403C189 401 188 398 188 396C188 394 187 391 187 389C187 387 186 384 186 382C186 380 185 377 185 375C185 373 184 370 184 368C184 366 183 363 183 361C183 359 182 356 182 354C182 352 181 349 181 347C181 345 180 342 180 340C180 338 180 335 179 333C178 331 178 328 177 326C176 324 176 321 175 319C174 317 173 314 172 312C171 310 170 307 169 305C168 303 167 300 166 298C165 296 163 293 162 291C161 289 159 286 158 284C157 282 156 279 154 277C152 275 150 272 149 270C148 268 146 265 145 263C144 261 142 258 140 256C138 254 137 251 135 249C133 247 132 244 130 242C128 240 127 237 125 235C123 233 121 230 119 228C117 226 116 223 114 221C112 219 110 216 108 214C106 212 105 209 103 207C101 205 100 202 98 200C96 198 95 195 94 193C93 191 91 188 90 186C89 184 87 181 86 179C85 177 84 174 83 172C82 170 82 167 81 165C80 163 79 160 79 158C79 156 78 153 79 151C80 149 80 146 82 144C84 142 87 140 89 139C91 138 94 138 96 137C98 136 101 136 103 136C105 136 108 136 110 136C112 136 115 137 117 137C119 137 122 138 124 138C126 138 129 139 131 139C133 139 136 140 138 140C140 140 143 141 145 142C147 143 150 143 152 144C154 145 157 146 159 146C161 146 164 146 166 147C168 148 171 148 173 149C175 150 178 150 180 151C182 152 185 152 187 153C189 154 192 154 194 155C196 156 199 156 201 157C203 158 206 158 208 159C210 160 213 160 215 161C217 162 220 162 222 163C224 164 227 164 229 165C231 166 234 166 236 167C238 168 241 168 243 169C245 170 248 171 250 172C252 173 255 173 257 174C259 175 262 176 264 177C266 178 269 178 271 179C273 180 276 182 278 183C280 184 283 186 285 188C287 190 290 191 292 193C294 195 297 196 299 198C301 200 304 202 306 204C308 206 311 208 313 210C315 212 318 214 320 216C322 218 325 220 327 222C329 224 332 226 334 228C336 230 339 232 341 234C343 236 346 239 348 241C350 243 353 244 355 246C357 248 360 250 362 251C364 252 367 254 369 255C371 256 374 258 376 259C378 260 381 261 383 262C385 263 388 265 390 266C392 267 395 268 397 269C399 270 402 272 404 273C406 274 409 274 411 275C413 276 416 277 418 277C420 277 424 277 425 276C426 275 426 271 427 269C428 267 428 264 428 262C428 260 430 257 430 255C430 253 430 250 431 248C432 246 432 243 433 241C434 239 434 236 435 234C436 232 436 229 437 227C438 225 439 222 440 220C441 218 443 215 444 213C445 211 447 208 448 206C449 204 451 201 452 199C453 197 454 194 455 192C456 190 458 187 459 185C460 183 462 180 463 178C464 176 466 173 467 171C468 169 470 166 471 164C472 162 473 159 474 157C475 155 478 152 479 150C480 148 482 145 483 143C484 141 486 138 487 136C488 134 490 131 491 129C492 127 494 124 496 122C498 120 500 117 502 115C504 113 507 110 509 108C511 106 514 103 516 101C518 99 521 96 523 94C525 92 528 89 530 87C532 85 535 83 537 81C539 79 542 77 544 75C546 73 549 72 551 70C553 68 556 66 558 64C560 62 563 60 565 59C567 58 570 56 572 55C574 54 577 52 579 50C581 48 584 47 586 46C588 45 591 44 593 43C595 42 598 41 600 40C602 39 605 38 607 37C609 36 612 36 614 35C616 34 619 34 621 33C623 32 626 32 628 31C630 30 633 30 635 29C637 28 640 28 642 28C644 28 647 27 649 27C651 27 650 27 652 27Z"/></svg>
+    <span class="ouverture-rond"></span><span class="ouverture-rond ouverture-rond--2"></span><span class="ouverture-rond ouverture-rond--3"></span>
+    <span class="ouverture-goutte"></span><span class="ouverture-goutte ouverture-goutte--2"></span>
+  </div>
+  <p class="ouverture-nom">ESN</p>
+  <p class="ouverture-ligne">École Suisse de Natation · Puidoux-Chexbres</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="ESN École Suisse de Natation, accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="52" height="38"><span class="marque"><b>ESN</b><small>École Suisse de Natation</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/cours" data-libelle="Les cours">Les cours</a></li><li><a href="/ecole" data-libelle="L&#39;école">L&#39;école</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/inscription" data-libelle="Inscription">S&#39;inscrire</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/cours" class="menu-lien" data-libelle="Les cours">Les cours</a></li><li style="--i:2"><a href="/ecole" class="menu-lien" data-libelle="L&#39;école">L&#39;école</a></li><li style="--i:3"><a href="/inscription" class="menu-lien" data-libelle="Inscription">Inscription</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+41763914454">Appeler 076 391 44 54</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <canvas class="caustiques caustiques--hero" data-caustiques="hero" data-effet="caustiques" data-visuel aria-hidden="true"></canvas>
+  <div class="hero-grille">
+    <div class="hero-texte">
+      <p class="surtitre hero-sur masque-ecran-bas" data-anime="gsap">École de natation à Puidoux-Chexbres, depuis 1995</p>
+      <h1 class="titre-ouverture" data-anime="gsap"><span class="ligne-masque"><span class="titre-ligne">Apprendre à nager,</span></span><span class="ligne-masque"><span class="titre-ligne titre-ligne--bleu">à son rythme.</span></span></h1>
+      <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">Des cours en groupe dès 4 ans, douze enfants au plus, à la piscine du collège du Verrney.</p>
+      <p class="hero-actions" data-anime="gsap">
+        <a href="/inscription" class="bouton" data-libelle="Inscription" data-action-principale data-survol="magnetique">Demander une inscription</a>
+        <a href="/cours" class="bouton bouton--contour hero-second" data-libelle="Les cours">Voir les cours</a>
+      </p>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span data-prochain data-modele="Prochain cycle : {prochain}">Prochain cycle : janvier – mars 2027</span><span>CHF 195.– les 10 leçons</span></p>
+    </div>
+    <div class="hero-visuel">
+      <figure class="media hero-cadre" data-grok data-fx="parallaxe" data-fx-force="8" data-iris-centre style="--cadrage:60% 40%">
+  <picture>
+    <img src="/assets/images/accueil-bassin-1280.webp" srcset="/assets/images/accueil-bassin-640.webp 640w, /assets/images/accueil-bassin-1280.webp 1280w, /assets/images/accueil-bassin-1920.webp 1920w" sizes="(max-width: 760px) 92vw, 40vw" alt="Bassin vu du dessus, reflets de lumière sur le carrelage et ligne d&#39;eau rouge et blanc" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <figure class="media hero-carte" data-anime="gsap" style="--cadrage:50% 40%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-lundi-2026-1600.webp" srcset="/assets/images/groupe-lundi-2026-1024.webp 1024w, /assets/images/groupe-lundi-2026-1168.webp 1168w, /assets/images/groupe-lundi-2026-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 18vw" alt="Groupe du lundi, deuxième trimestre 2026, au bord du bassin" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Un groupe du lundi, au printemps 2026</figcaption>
+</figure>
+    </div>
+  </div>
+  <div class="ligne-eau ligne-eau--hero" data-ligne-eau data-effet="ligne-d-eau" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+</section>
+<section class="pourqui" id="pour-qui">
+  <div class="conteneur pourqui-grille">
+    <div class="pourqui-texte">
+      <h2 data-anime="lignes">Petits groupes, grands progrès.</h2>
+      <p data-anime>Pas de cours privés à l&#39;ESN : on apprend ensemble, encadré par un instructeur suisse de natation et des moniteurs Jeunesse+Sport. Et pas de compétition, sauf si l&#39;enfant en a vraiment envie.</p>
+      <ul class="pourqui-chiffres chiffres">
+        <li data-anime><strong data-compteur="4">4</strong><span>ans révolus, l&#39;âge pour commencer</span></li>
+        <li data-anime style="--delai:.08s"><strong data-compteur="12">12</strong><span>enfants au plus par groupe</span></li>
+        <li data-anime style="--delai:.16s"><strong data-compteur="45">45</strong><span>minutes par leçon</span></li>
+        <li data-anime style="--delai:.24s"><strong data-compteur="10">10</strong><span>leçons par cycle</span></li>
+      </ul>
+    </div>
+    <figure class="media pourqui-media" data-grok data-fx="zoom" style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/accueil-bonnets-1600.webp" srcset="/assets/images/accueil-bonnets-1024.webp 1024w, /assets/images/accueil-bonnets-1168.webp 1168w, /assets/images/accueil-bonnets-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 38vw" alt="Bonnets de bain colorés et lunettes qui sèchent sur le bord carrelé" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="groupes bande-bleue" id="groupes" data-groupes>
+  <div class="conteneur">
+    <div class="groupes-tete">
+      <p class="surtitre surtitre--clair">Les cours</p>
+      <h2 data-anime="lignes">Cinq groupes, dix levels.</h2>
+      <p data-anime>Chaque enfant avance d&#39;un level à l&#39;autre, de la découverte de l&#39;eau jusqu&#39;au dauphin.</p>
+    </div>
+    <div class="couloir" data-couloir data-visuel aria-label="Ligne d&#39;eau : les 10 levels de l&#39;école" role="img">
+      <div class="couloir-flotteurs" data-ligne-eau data-effet="ligne-d-eau"><span class="flotteur"><b>1</b></span><span class="flotteur"><b>2</b></span><span class="flotteur"><b>3</b></span><span class="flotteur"><b>4</b></span><span class="flotteur"><b>5</b></span><span class="flotteur"><b>6</b></span><span class="flotteur"><b>7</b></span><span class="flotteur"><b>8</b></span><span class="flotteur"><b>9</b></span><span class="flotteur"><b>10</b></span></div>
+      <div class="couloir-groupes"><span class="couloir-groupe" data-couloir-groupe="0" style="grid-column:1 / 2"><span class="couloir-nom">Débutant</span></span><span class="couloir-groupe" data-couloir-groupe="1" style="grid-column:2 / 4"><span class="couloir-nom">Moyen</span></span><span class="couloir-groupe" data-couloir-groupe="2" style="grid-column:4 / 7"><span class="couloir-nom">Avancé 1</span></span><span class="couloir-groupe" data-couloir-groupe="3" style="grid-column:7 / 9"><span class="couloir-nom">Avancé 2</span></span><span class="couloir-groupe" data-couloir-groupe="4" style="grid-column:9 / 11"><span class="couloir-nom">Expert</span></span></div>
+      <img class="couloir-poisson" data-couloir-poisson src="/assets/images/logo-clair.svg" alt="" width="64" height="46">
+    </div>
+    <ol class="groupes-liste"><li class="groupe-carte" data-groupe-carte="0" data-anime style="--delai:0.00s">
+      <p class="groupe-levels">Level 1</p>
+      <h3>Débutant</h3>
+      <p class="groupe-contenu">Découverte de l&#39;eau</p>
+      <p class="groupe-meta">45 min · 10 leçons</p>
+      <p class="groupe-prix" data-prix>CHF 195.–</p>
+      <a href="/inscription?groupe=debutant" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
+    </li><li class="groupe-carte" data-groupe-carte="1" data-anime style="--delai:0.07s">
+      <p class="groupe-levels">Level 2-3</p>
+      <h3>Moyen</h3>
+      <p class="groupe-contenu">Motricité, profondeur</p>
+      <p class="groupe-meta">45 min · 10 leçons</p>
+      <p class="groupe-prix" data-prix>CHF 195.–</p>
+      <a href="/inscription?groupe=moyen" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
+    </li><li class="groupe-carte" data-groupe-carte="2" data-anime style="--delai:0.14s">
+      <p class="groupe-levels">Level 4-5-6</p>
+      <h3>Avancé 1</h3>
+      <p class="groupe-contenu">Technique dos et crawl</p>
+      <p class="groupe-meta">45 min · 10 leçons</p>
+      <p class="groupe-prix" data-prix>CHF 195.–</p>
+      <a href="/inscription?groupe=avance-1" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
+    </li><li class="groupe-carte" data-groupe-carte="3" data-anime style="--delai:0.21s">
+      <p class="groupe-levels">Level 7-8</p>
+      <h3>Avancé 2</h3>
+      <p class="groupe-contenu">Crawl, dos et brasse</p>
+      <p class="groupe-meta">45 min · 10 leçons</p>
+      <p class="groupe-prix" data-prix>CHF 195.–</p>
+      <a href="/inscription?groupe=avance-2" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
+    </li><li class="groupe-carte" data-groupe-carte="4" data-anime style="--delai:0.28s">
+      <p class="groupe-levels">Level 9-10</p>
+      <h3>Expert</h3>
+      <p class="groupe-contenu">Crawl, brasse et dauphin</p>
+      <p class="groupe-meta">45 min · 10 leçons</p>
+      <p class="groupe-prix" data-prix>CHF 195.–</p>
+      <a href="/inscription?groupe=expert" class="lien-fleche" data-libelle="Inscription">Inscrire mon enfant</a>
+    </li></ol>
+    <p class="groupes-plus" data-anime><a href="/cours" class="bouton bouton--blanc" data-libelle="Les cours">Tous les détails des cours</a></p>
+  </div>
+</section>
+<section class="methode" id="methode">
+  <div class="conteneur methode-grille">
+    <div>
+      <h2 data-anime="lignes">Le dos et le crawl d&#39;abord. La brasse en dernier.</h2>
+      <p data-anime>La brasse demande une coordination difficile pour les jeunes enfants : à l&#39;ESN, elle vient après le dos et le crawl. Chaque étape se gagne sans se presser.</p>
+      <div class="parcours">
+        <svg class="parcours-trait" viewBox="0 0 40 400" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M20 4 C 36 54, 4 96, 20 146 S 36 246, 20 296 S 4 360, 20 396" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <ol class="parcours-etapes">
+          <li data-anime style="--delai:0.0s"><span class="parcours-num">1</span><div><h3>La tête sous l&#39;eau</h3><p>On apprend à immerger la tête, en confiance.</p></div></li><li data-anime style="--delai:0.1s"><span class="parcours-num">2</span><div><h3>Sur le ventre</h3><p>On nage à plat ventre, on découvre la profondeur.</p></div></li><li data-anime style="--delai:0.2s"><span class="parcours-num">3</span><div><h3>Dos et crawl</h3><p>La technique vient, avec l&#39;endurance.</p></div></li><li data-anime style="--delai:0.3s"><span class="parcours-num">4</span><div><h3>La brasse, en dernier</h3><p>Quand la coordination est là, puis le dauphin.</p></div></li>
+        </ol>
+      </div>
+    </div>
+    <figure class="media methode-media" data-anime="rideau" style="--cadrage:40% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/plongeon-1600.webp" srcset="/assets/images/plongeon-1024.webp 1024w, /assets/images/plongeon-1168.webp 1168w, /assets/images/plongeon-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 44vw" alt="Un élève plonge depuis le bord, sous l&#39;œil de ses camarades" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Un plongeon depuis le bord, sous l&#39;œil des copains</figcaption>
+</figure>
+  </div>
+</section>
+<section class="conseils" id="conseils">
+  <div class="conteneur">
+    <h2 class="conseils-titre" data-anime="lignes">Les quatre conseils de l&#39;école aux débutants</h2>
+    <ul class="visuellement-cache"><li>Courage</li><li>Patience</li><li>Régularité</li><li>Plaisir</li></ul>
+  </div>
+  <div class="mots" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee><span class="mot">Courage</span><span class="mot-point"></span><span class="mot">Patience</span><span class="mot-point"></span><span class="mot">Courage</span><span class="mot-point"></span><span class="mot">Patience</span><span class="mot-point"></span><span class="mot">Courage</span><span class="mot-point"></span><span class="mot">Patience</span><span class="mot-point"></span></p>
+    <p data-fx-rangee data-sens="-1"><span class="mot mot--plein">Régularité</span><span class="mot-point"></span><span class="mot mot--plein">Plaisir</span><span class="mot-point"></span><span class="mot mot--plein">Régularité</span><span class="mot-point"></span><span class="mot mot--plein">Plaisir</span><span class="mot-point"></span><span class="mot mot--plein">Régularité</span><span class="mot-point"></span><span class="mot mot--plein">Plaisir</span><span class="mot-point"></span></p>
+  </div>
+  <div class="bande-photos" data-bande-photos data-galerie data-effet="bande-photos" tabindex="0" role="region" aria-label="Photos des groupes, trimestre après trimestre">
+  <ul class="bande-piste"><li><figure class="media bande-media" style="--cadrage:50% 45%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-jeudi-2025-1600.webp" srcset="/assets/images/groupe-jeudi-2025-1024.webp 1024w, /assets/images/groupe-jeudi-2025-1168.webp 1168w, /assets/images/groupe-jeudi-2025-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du jeudi, deuxième trimestre 2025, dans l&#39;eau" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Jeudi, 2e trimestre 2025</figcaption>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 55%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-lundi-hiver-2025-1600.webp" srcset="/assets/images/groupe-lundi-hiver-2025-1024.webp 1024w, /assets/images/groupe-lundi-hiver-2025-1168.webp 1168w, /assets/images/groupe-lundi-hiver-2025-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du lundi, premier trimestre 2025, avec un moniteur dans le bassin" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Lundi, 1er trimestre 2025</figcaption>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-jeudi-automne-2025-1600.webp" srcset="/assets/images/groupe-jeudi-automne-2025-1024.webp 1024w, /assets/images/groupe-jeudi-automne-2025-1168.webp 1168w, /assets/images/groupe-jeudi-automne-2025-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du jeudi, quatrième trimestre 2025" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Jeudi, 4e trimestre 2025</figcaption>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-lundi-automne-2024-1600.webp" srcset="/assets/images/groupe-lundi-automne-2024-1024.webp 1024w, /assets/images/groupe-lundi-automne-2024-1168.webp 1168w, /assets/images/groupe-lundi-automne-2024-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du lundi, quatrième trimestre 2024, dans l&#39;eau" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Lundi, 4e trimestre 2024</figcaption>
+</figure></li><li><figure class="media bande-media" style="--cadrage:40% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-lundi-hiver-2026-1600.webp" srcset="/assets/images/groupe-lundi-hiver-2026-1024.webp 1024w, /assets/images/groupe-lundi-hiver-2026-1168.webp 1168w, /assets/images/groupe-lundi-hiver-2026-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du lundi, premier trimestre 2026" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Lundi, 1er trimestre 2026</figcaption>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/groupe-lundi-2025-1600.webp" srcset="/assets/images/groupe-lundi-2025-1024.webp 1024w, /assets/images/groupe-lundi-2025-1168.webp 1168w, /assets/images/groupe-lundi-2025-1600.webp 1600w" sizes="(max-width: 760px) 78vw, 34vw" alt="Groupe du lundi, deuxième trimestre 2025" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Lundi, 2e trimestre 2025</figcaption>
+</figure></li></ul>
+</div>
+  <p class="conteneur conseils-note" data-anime>Chaque trimestre, chaque groupe a sa photo au bord du bassin.</p>
+</section>
+<section class="annee" id="annee">
+  <div class="conteneur">
+    <div class="annee-tete">
+      <h2 data-anime="lignes">Trois cycles par année scolaire.</h2>
+      <p data-anime>Dix leçons par cycle, le lundi ou le jeudi, de septembre à juin. Les cours débutent après réception du programme et du calendrier.</p>
+    </div>
+    <div class="cycles" data-cycles data-visuel data-effet="cycles" data-libelles="{&quot;enCours&quot;:&quot;En cours&quot;,&quot;prochain&quot;:&quot;Prochain cycle&quot;,&quot;ensuite&quot;:&quot;Ensuite&quot;,&quot;passe&quot;:&quot;Terminé&quot;}">
+  <div class="cycles-barre" aria-hidden="true"><span class="cycles-rempli" data-cycles-rempli></span><span class="cycles-auj" data-cycles-auj><span>Aujourd&#39;hui</span></span></div>
+  <div class="cycles-bornes" aria-hidden="true"><span>Sept.</span><span>Juin</span></div>
+  <ol class="cycles-liste"><li class="cycle" data-cycle="automne" data-statut="enCours" style="grid-column:1 / 5">
+    <span class="cycle-statut" data-cycle-statut>En cours</span>
+    <strong>Septembre – décembre</strong>
+    <span class="cycle-annee" data-cycle-annee>2026</span>
+  </li><li class="cycle" data-cycle="hiver" data-statut="prochain" style="grid-column:5 / 8">
+    <span class="cycle-statut" data-cycle-statut>Prochain cycle</span>
+    <strong>Janvier – mars</strong>
+    <span class="cycle-annee" data-cycle-annee>2027</span>
+  </li><li class="cycle" data-cycle="printemps" data-statut="ensuite" style="grid-column:8 / 11">
+    <span class="cycle-statut" data-cycle-statut>Ensuite</span>
+    <strong>Avril – juin</strong>
+    <span class="cycle-annee" data-cycle-annee>2027</span>
+  </li></ol>
+</div>
+    <dl class="infos-pratiques">
+      <div data-anime><dt>Quand</dt><dd>Lundi et jeudi, 17 h 30 – 19 h 30</dd></div>
+      <div data-anime style="--delai:.08s"><dt>Où</dt><dd>Piscine du collège du Verrney, Puidoux</dd></div>
+      <div data-anime style="--delai:.16s"><dt>Combien</dt><dd><span data-prix>CHF 195.–</span> les 10 leçons de 45 minutes</dd></div>
+    </dl>
+    <p class="rappel" data-anime>Venez à la piscine une fois l&#39;inscription confirmée : l&#39;école vous envoie le programme et le calendrier avant le premier cours.</p>
+  </div>
+</section>
+<section class="equipe" id="equipe">
+  <div class="conteneur">
+    <div class="equipe-tete">
+      <h2 data-anime="lignes">L&#39;équipe au bord du bassin.</h2>
+      <p data-anime>Un instructeur suisse de natation et trois moniteurs formés par Jeunesse+Sport.</p>
+    </div>
+    <ul class="equipe-liste" data-anime="cascade"><li class="personne">
+      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/equipe-jean-marc-428.webp" srcset="/assets/images/equipe-jean-marc-320.webp 320w, /assets/images/equipe-jean-marc-428.webp 428w" sizes="160px" alt="Jean-Marc Maurer" width="428" height="428" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <h3>Jean-Marc Maurer</h3><p>Instructeur suisse de natation, direction de l&#39;école</p>
+    </li><li class="personne">
+      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/equipe-daphne-428.webp" srcset="/assets/images/equipe-daphne-320.webp 320w, /assets/images/equipe-daphne-428.webp 428w" sizes="160px" alt="Daphné Bricod" width="428" height="428" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <h3>Daphné Bricod</h3><p>Monitrice de natation J+S</p>
+    </li><li class="personne">
+      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/equipe-dario-428.webp" srcset="/assets/images/equipe-dario-320.webp 320w, /assets/images/equipe-dario-428.webp 428w" sizes="160px" alt="Dario Olmo" width="428" height="428" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <h3>Dario Olmo</h3><p>Moniteur de natation J+S</p>
+    </li><li class="personne">
+      <figure class="media personne-photo" style="--cadrage:50% 35%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/equipe-thomas-428.webp" srcset="/assets/images/equipe-thomas-320.webp 320w, /assets/images/equipe-thomas-428.webp 428w" sizes="160px" alt="Thomas Thévenet" width="428" height="428" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <h3>Thomas Thévenet</h3><p>Moniteur de natation J+S</p>
+    </li></ul>
+    <p data-anime><a href="/ecole#equipe" class="lien-fleche" data-libelle="L&#39;école">Découvrir l&#39;école</a></p>
+  </div>
+</section>
+<section class="confiance" id="confiance">
+  <div class="conteneur confiance-grille">
+    <div class="confiance-chiffre chiffres" data-visuel>
+      <img class="confiance-poisson" src="/assets/images/logo.svg" alt="" width="220" height="159" loading="lazy" data-fx="vitesse" data-fx-force="4">
+      <p><strong data-compteur="31">31</strong> <span>ans d&#39;école</span></p>
+      <p class="confiance-depuis">Ouverte en 1995</p>
+    </div>
+    <div>
+      <h2 data-anime="lignes">Éducation. Découverte. Plaisir.</h2>
+      <p data-anime>L&#39;école bénéficie du soutien financier de Jeunesse+Sport et suit la charte des droits de l&#39;enfant dans le sport.</p>
+      <ul class="charte-mini" data-anime="cascade"><li>Faire du sport pour le plaisir.</li><li>Évoluer dans un cadre sain et sûr.</li><li>Être respecté, sans harcèlement ni intimidation.</li></ul>
+      <p data-anime><a href="/ecole#charte" class="lien-fleche" data-libelle="L&#39;école">Lire la charte</a></p>
+    </div>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <canvas class="caustiques" data-caustiques="appel" data-effet="caustiques" data-visuel aria-hidden="true"></canvas>
+  <div class="conteneur appel-contenu">
+    <img class="appel-poisson" src="/assets/images/logo-clair.svg" alt="" width="120" height="87" loading="lazy" data-anime>
+    <h2 data-anime="lignes">Le prochain cycle commence en janvier.</h2>
+    <p data-anime>Faites votre demande : l&#39;école confirme chaque inscription et vous envoie le programme et le calendrier.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/inscription" class="bouton bouton--blanc" data-libelle="Inscription" data-survol="magnetique">Demander une inscription</a>
+      <a class="bouton bouton--contour-clair" href="tel:+41763914454">Appeler 076 391 44 54</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="ligne-eau ligne-eau--pied" data-ligne-eau aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.svg" alt="" width="88" height="64" loading="lazy">
+      <p><strong>ESN École Suisse de Natation</strong><br>École Suisse de Natation · Puidoux-Chexbres</p>
+      <p>Avec le soutien de Jeunesse+Sport</p>
+    </div>
+    <div>
+      <p><strong>Piscine du collège du Verrney, Puidoux</strong><br>Lundi et jeudi, 17 h 30 – 19 h 30<br>Pendant les périodes scolaires</p>
+      <p><a href="tel:+41763914454">076 391 44 54</a><br><span class="courriel">info@esnatation.ch</span></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/cours" data-libelle="Les cours">Les cours</a></li><li><a href="/ecole" data-libelle="L&#39;école">L&#39;école</a></li><li><a href="/inscription" data-libelle="Inscription">Inscription</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas"><p>© ESN École Suisse de Natation de Puidoux-Chexbres, depuis 1995</p><p>Mentions légales · à compléter</p><p>Politique de confidentialité · à compléter</p><p>Maquette : les informations marquées « à compléter » seront fournies par l&#39;école.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+41763914454">Appeler</a>
+  <a class="bouton" href="/inscription" data-libelle="Inscription">S&#39;inscrire</a>
+</div>
+</body>
+</html>

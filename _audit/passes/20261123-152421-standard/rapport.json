@@ -1,0 +1,4409 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.logoLien",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.marque",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.marqueSous",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.mentions",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.confidentialite",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.js",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.lieu",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.horaires",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.periodes",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.emailLibelle",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.telLibelle",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.copie",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.duree",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.lecons",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.prixLibelle",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.inscrire",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.demander",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.voirCours",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.rappelConfirmation",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : commun.ligneEau",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.cours.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.cours.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.cours.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.cours.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.cours.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.ecole.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.ecole.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.ecole.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.ecole.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.ecole.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.inscription.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.inscription.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.inscription.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.inscription.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.inscription.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.contact.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.contact.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.contact.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.contact.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : pages.contact.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.titreCourt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.enCours",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.prochain",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.ensuite",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.aujourdhui",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.septembre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.juin",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.ete",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cycles.passe",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.hero.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.hero.infoPrix",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.hero.carteLegende",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.c1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.c2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.c3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.pourqui.c4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.groupes.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.groupes.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.groupes.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.groupes.tous",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e1t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e2t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e3t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e4t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.e4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.methode.legende",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.mot1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.mot2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.mot3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.mot4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.conseils.region",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.c1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.c2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.c3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.quand",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.ou",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.annee.combien",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.equipe.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.equipe.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.equipe.lien",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.confiance.annees",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.confiance.depuis",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.confiance.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.confiance.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.confiance.lien",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.appel.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : accueil.appel.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.titre1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.titre2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.prix",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.devise",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.prixLibelle",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.info",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.choisir",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.ouverture.choisirSouris",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.fiches.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.fiches.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.fiches.level",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e1t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e2t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e3t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e4t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.deroule.e4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q5",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r5",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.q6",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.faq.r6",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.appel.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : cours.appel.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.ouverture.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.ouverture.titre1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.ouverture.titre2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.ouverture.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.ouverture.info",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.histoire.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.histoire.texte1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.histoire.texte2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p1t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p2t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p3t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p4t",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.pedagogie.p4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.equipe.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.equipe.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.charte.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.charte.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.charte.roles",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.soutien.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.soutien.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.soutien.lien",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.photos.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.photos.region",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.appel.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : ecole.appel.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ouverture.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ouverture.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ouverture.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ouverture.info",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ouverture.simule",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.etape1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.etape2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.etape3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.etape4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.q1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.prenom",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.age",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.ageAide",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.groupe",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.groupeHesite",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.groupeHesiteTexte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.q2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.jour",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.lundi",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.jeudi",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.egal",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.egalTexte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.cycle",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.q3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.nom",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.email",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.tel",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.message",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.avs",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.accord",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.donnees",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.q4",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.retour",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.continuer",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.envoyer",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.finTitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.finTexte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.recommencer",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.aside.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.aside.l1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.aside.l2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.aside.l3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : inscription.aside.telTexte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.ouverture.surtitre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.ouverture.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.ouverture.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.ouverture.info",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.plan",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.lac",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.puidoux",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.chexbres",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.lieu.piscine",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.horaires.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.horaires.lundi",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.horaires.jeudi",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.horaires.heures",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.horaires.note",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.nom",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.email",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.tel",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.sujet",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.sujetInscription",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.sujetGroupe",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.sujetAutre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.message",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.donnees",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.envoyer",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : contact.formulaire.simule",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en en : introuvable.alt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.a-propos.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.a-propos.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.a-propos.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.a-propos.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.a-propos.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.mentions-legales.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.mentions-legales.description",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.mentions-legales.nav",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.mentions-legales.partageAlt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : pages.mentions-legales.accroche",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.hero.action",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.hero.alt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.chiffres.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.chiffres.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.chiffres.c1",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.chiffres.c2",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.chiffres.c3",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.galerie.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.galerie.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.galerie.region",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.ruban.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.faq.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.fin.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.fin.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.fin.equipe",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : accueil.fin.visite",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.alt",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.equipe.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.equipe.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.lieu.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.lieu.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.nom",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.email",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.tel",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.sujet",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.sujetVisite",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.sujetDevis",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.sujetAutre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.message",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.envoyer",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : apropos.contact.donnees",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.editeur.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.editeur.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.hebergeur.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.hebergeur.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.credits.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.credits.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.confidentialite.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.confidentialite.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.fiche.titre",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "langues",
+      "detail": "texte manquant en fr : mentions.fiche.texte",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "pages générées",
+      "detail": "pas régénérées depuis la dernière modification des données (node outils/generer.mjs) : 404.html, contact.html, cours.html, ecole.html, index.html, inscription.html",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-grille:nth-of-type(1) > div.hero-texte:nth-of-type(1) > p.hero-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Demander une inscription »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.parcours > ol.parcours-etapes > li:nth-of-type(4) > span.parcours-num « 4 »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.cycles:nth-of-type(2) > ol.cycles-liste > li.cycle:nth-of-type(2) > span.cycle-statut:nth-of-type(1) « Prochain cycle »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe.actif:nth-of-type(1) « Débutant »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe:nth-of-type(2) « Moyen »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe:nth-of-type(3) « Avancé 1 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe:nth-of-type(4) « Avancé 2 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe:nth-of-type(5) « Expert »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#conseils > div.bande-photos:nth-of-type(3) « Jeudi, 2e trimestre 2025 Lundi, 1er trimestre 2025 »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.bande-piste > li:nth-of-type(2) > figure.media.bande-media > figcaption.media-legende « Lundi, 1er trimestre 2025 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.confiance-grille > div.confiance-chiffre.chiffres:nth-of-type(1) > p:nth-of-type(1) > span « ans d'école »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "div.conteneur.confiance-grille > div.confiance-chiffre.chiffres:nth-of-type(1) > p:nth-of-type(1) > strong « 31 »",
+      "lieux": [
+        "844×390 normal",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par div.hero-visuel:nth-of-type(2) > figure.media.hero-cadre:nth-of-type(1) > picture > img « Bassin vu du dessus, reflets de lumière sur le car »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-grille:nth-of-type(1) > div.hero-texte:nth-of-type(1) > h1.titre-ouverture « Apprendre à nager, à son rythme. »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par div.hero-visuel:nth-of-type(2) > figure.media.hero-cadre:nth-of-type(1) > picture > img « Bassin vu du dessus, reflets de lumière sur le car »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-grille:nth-of-type(1) > div.hero-texte:nth-of-type(1) > p.hero-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Demander une inscription »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par div.hero-visuel:nth-of-type(2) > figure.media.hero-carte:nth-of-type(2) > picture > img « Groupe du lundi, deuxième trimestre 2026, au bord  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.hero-grille:nth-of-type(1) > div.hero-texte:nth-of-type(1) > p.hero-actions:nth-of-type(3) > a.bouton.bouton--contour:nth-of-type(2) « Voir les cours »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par div.hero-visuel:nth-of-type(2) > figure.media.hero-carte:nth-of-type(2) > picture > img « Groupe du lundi, deuxième trimestre 2026, au bord  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-grille:nth-of-type(1) > div.hero-texte:nth-of-type(1) > p.hero-info:nth-of-type(4) « Prochain cycle : janvier – mars 2027 CHF 195.– les »",
+      "lieux": [
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li[data-cycle=\"hiver\"] > .cycle-statut[data-cycle-statut=\"\"] ; div[data-barre-fixe=\"\"] > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.conteneur > div.couloir:nth-of-type(2) > div.couloir-groupes:nth-of-type(2) > span.couloir-groupe:nth-of-type(1) « Débutant »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li[data-cycle=\"hiver\"] > .cycle-statut[data-cycle-statut=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > p:nth-of-type(2) > a.bouton « Retour à l'accueil »",
+      "lieux": [
+        "320×568 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > p:nth-of-type(2) > a.bouton « Retour à l'accueil »",
+      "lieux": [
+        "320×568 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > p:nth-of-type(2) > a.bouton « Retour à l'accueil »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div.barre-masquee:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "844×390 normal",
+        "768×1024 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"] ; a[data-action-principale=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#ecrire > div.conteneur.ecrire-grille > form > button.bouton « Envoyer »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "button[type=\"submit\"] ; div[data-barre-fixe=\"\"] > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"] ; button[type=\"submit\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.cours-tete-grille:nth-of-type(1) > p.prix-geant « CHF 195.– »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.cours-tete-grille:nth-of-type(1) > div > p.hero-actions:nth-of-type(3) > a.bouton « Inscrire mon enfant »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur > ol.deroule-etapes > li:nth-of-type(1) > span.parcours-num « 1 »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "33 × 44 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(1) « 1 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "35 × 45 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(2) « 2 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 46 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(3) « 3 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 46 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(4) « 4 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 46 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(5) « 5 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "35 × 45 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(6) « 6 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "33 × 44 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(7) « 7 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "34 × 45 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(8) « 8 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "35 × 46 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(9) « 9 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "36 × 46 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#levels > div.selecteur-flotteurs:nth-of-type(1) > button:nth-of-type(10) « 10 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"] ; div[data-panneau=\"debutant\"] > .groupe-levels ; div[data-barre-fixe=\"\"] > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"] ; a[data-action-principale=\"\"] ; div[data-panneau=\"debutant\"] > .groupe-levels",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.ecole-tete-info:nth-of-type(4) « Direction : Jean-Marc Maurer, instructeur suisse d »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#photos > div.bande-photos « Lundi, 2e trimestre 2026 Lundi, 4e trimestre 2024  »",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.bande-piste > li:nth-of-type(2) > figure.media.bande-media > figcaption.media-legende « Lundi, 4e trimestre 2024 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#histoire > div.conteneur.histoire-grille > div > h2 « Éducation. Découverte. Plaisir. »",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#histoire > div.conteneur.histoire-grille > div > p.histoire-annee.chiffres:nth-of-type(1) « 1995 »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "4.16:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.surtitre.masque-ecran-tres-bas:nth-of-type(1) « L'école »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.42:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ecole-tete-texte > h1.titre-page > span.ligne-masque:nth-of-type(1) > span.titre-ligne « Depuis 1995, »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.88:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ecole-tete-texte > h1.titre-page > span.ligne-masque:nth-of-type(2) > span.titre-ligne.titre-ligne--bleu « la natation pour tous. »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "3.62:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.intro:nth-of-type(2) « Une école née d'une passion, pour rendre l'apprent »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "4.34:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.hero-actions:nth-of-type(3) > a.bouton « Demander une inscription »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"] ; div[data-barre-fixe=\"\"] > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.65:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.surtitre.masque-ecran-tres-bas:nth-of-type(1) « L'école »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.03:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ecole-tete-texte > h1.titre-page > span.ligne-masque:nth-of-type(1) > span.titre-ligne « Depuis 1995, »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.60:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ecole-tete-texte > h1.titre-page > span.ligne-masque:nth-of-type(2) > span.titre-ligne.titre-ligne--bleu « la natation pour tous. »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "3.46:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.intro:nth-of-type(2) « Une école née d'une passion, pour rendre l'apprent »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "a[data-action-principale=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ecole-tete-texte > p.hero-actions:nth-of-type(3) > a.bouton « Demander une inscription »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div > div.inscr-tete > p.hero-actions:nth-of-type(3) > a.bouton « Continuer »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.fpe__carton > form.fpe__form > div.fpe__nav:nth-of-type(2) > button.bouton:nth-of-type(2) « Continuer »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > div.barre-masquee:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(3) > span.fpe__nom:nth-of-type(2) « Vos coordonnées »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(4) > span.fpe__num:nth-of-type(1) « 4 »",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(3) > span.fpe__nom:nth-of-type(2) « Vos coordonnées »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "header > div.entete-rangee > div.entete-actions > a.bouton:nth-of-type(1) « S'inscrire »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "a[href$=\"#formulaire\"] ; button[data-suivant=\"\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.fpe__carton > form.fpe__form > div.fpe__nav > button.bouton:nth-of-type(3) « Envoyer la demande »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "4.34:1 (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "body#haut > div:nth-of-type(4) > a.bouton:nth-of-type(2) « S'inscrire »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": ".entete-actions > .bouton[href$=\"inscription\"][data-libelle=\"Inscription\"] ; a[href$=\"#formulaire\"] ; button[data-suivant=\"\"]",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "inscription.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : objet d’ouverture hors du premier écran",
+      "detail": "358 × 0 px visibles : l’intro et le voile s’ouvrent depuis le centre de l’écran à cette taille",
+      "etape": "grille",
+      "page": "/inscription",
+      "taille": "390×844",
+      "lieux": [
+        "390×844"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#groupes « Les cours Cinq groupes, dix levels. Chaque enfant  »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#annee « Trois cycles par année scolaire. Dix leçons par cy »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.hero-grille:nth-of-type(1) > div.hero-visuel:nth-of-type(2) > figure.media.hero-cadre:nth-of-type(1) > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#pour-qui > div.conteneur.pourqui-grille > figure.media.pourqui-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.introuvable-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#horaires « Les horaires. Lundi 17 h 30 – 19 h 30 Jeudi 17 h 3 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.contact-grille > figure.media.contact-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#groupes « Le bon groupe pour chaque enfant. Vous hésitez ent »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#deroule « Une inscription en quatre temps. 1 Votre demande L »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/cours",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur:nth-of-type(3) > figure.media.cours-bandeau > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#pedagogie « Une pédagogie sans pression. Pas de compétition Sa »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.ecole-tete-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#formulaire « 1 2 3 4 ÉTAPE 1 SUR 4 · L'ENFANT Pour qui est la p »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#formulaire « 1 L'enfant 2 Jour et cycle 3 Vos coordonnées 4 Réc »",
+      "lieux": [
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#formulaire « Pour qui est la place ? Prénom de l'enfant Âge de  »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.fpe__carton > form.fpe__form > div.fpe__progression:nth-of-type(1) > p.fpe__etat « ÉTAPE 1 SUR 4 · L'ENFANT »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.inscr-grille > aside.inscr-aside > figure.media.inscr-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/inscription",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "div.fpe__carton > form.fpe__form > fieldset.fpe__etape:nth-of-type(3) > p.fpe__note:nth-of-type(1) « Le numéro AVS de votre enfant vous sera demandé à  »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 71 ms (différence 21 %) (films/retour-avant-390.png)",
+      "etape": "films",
+      "page": "/cours",
+      "taille": "390×844",
+      "mode": "retour avant",
+      "lieux": [
+        "390×844 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "fluidité",
+      "detail": "5 % d'images de plus de 50 ms",
+      "etape": "fluidite",
+      "page": "/ecole",
+      "taille": "1366×768",
+      "mode": "défilement à la molette, processeur ralenti 4 fois",
+      "lieux": [
+        "1366×768 défilement à la molette, processeur ralenti 4 fois"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "trace : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "svg",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 3,
+    "mesures": 66,
+    "balayage": 5,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 4,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 4,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 4,
+    "souris immobile": 3,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 6 étape(s) notée(s), 29 min de travail pour 115 min de budget, 5 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /contact, /cours, /ecole, /inscription.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2899 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2886 ms depuis le premier octet",
+    "Ouverture /cours (1366×768) : 2791 ms depuis le premier octet",
+    "Ouverture /ecole (1366×768) : 2870 ms depuis le premier octet",
+    "Ouverture /inscription (1366×768) : 2860 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2887 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2899 ms depuis le premier octet",
+    "Ouverture /cours (390×844) : 2809 ms depuis le premier octet",
+    "Ouverture /ecole (390×844) : 2819 ms depuis le premier octet",
+    "Ouverture /inscription (390×844) : 2884 ms depuis le premier octet",
+    "bords de l’écran /contact 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "bords de l’écran /inscription 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 413 images d’intro, 15 de voile et 185 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Changements de hauteur /inscription : aucun effet ScrollTrigger, rien à recalculer.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /cours : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /ecole : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /inscription : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 2 % d'images lentes sur 355, tâche la plus longue 116 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 183, tâche la plus longue 0 ms",
+    "Fluidité /cours 1366×768 (molette) : 0 % d'images lentes sur 203, tâche la plus longue 74 ms",
+    "Fluidité /inscription 1366×768 (molette) : 0 % d'images lentes sur 137, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1436, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1339, tâche la plus longue 0 ms",
+    "Fluidité /cours 390×844 (doigt) : 0 % d'images lentes sur 1427, tâche la plus longue 0 ms",
+    "Fluidité /ecole 390×844 (doigt) : 0 % d'images lentes sur 1336, tâche la plus longue 0 ms",
+    "Fluidité /inscription 390×844 (doigt) : 0 % d'images lentes sur 1338, tâche la plus longue 0 ms",
+    "Vitesse / : 0.62 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.32 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /cours : 0.42 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /ecole : 0.42 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /inscription : 0.33 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

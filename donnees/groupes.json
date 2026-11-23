@@ -1,0 +1,7 @@
+[
+  { "cle": "debutant", "nom": "Débutant", "levels": "Level 1", "de": 1, "a": 1, "contenu": "Découverte de l'eau" },
+  { "cle": "moyen", "nom": "Moyen", "levels": "Level 2-3", "de": 2, "a": 3, "contenu": "Motricité, profondeur" },
+  { "cle": "avance-1", "nom": "Avancé 1", "levels": "Level 4-5-6", "de": 4, "a": 6, "contenu": "Technique dos et crawl" },
+  { "cle": "avance-2", "nom": "Avancé 2", "levels": "Level 7-8", "de": 7, "a": 8, "contenu": "Crawl, dos et brasse" },
+  { "cle": "expert", "nom": "Expert", "levels": "Level 9-10", "de": 9, "a": 10, "contenu": "Crawl, brasse et dauphin" }
+]

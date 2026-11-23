@@ -1,0 +1,10 @@
+[
+  { "image": "groupe-lundi-2026", "legende": "Lundi, 2e trimestre 2026", "cadrage": "50% 40%" },
+  { "image": "groupe-jeudi-2025", "legende": "Jeudi, 2e trimestre 2025", "cadrage": "50% 45%" },
+  { "image": "groupe-lundi-hiver-2025", "legende": "Lundi, 1er trimestre 2025", "cadrage": "50% 55%" },
+  { "image": "groupe-jeudi-automne-2025", "legende": "Jeudi, 4e trimestre 2025", "cadrage": "50% 50%" },
+  { "image": "groupe-lundi-automne-2024", "legende": "Lundi, 4e trimestre 2024", "cadrage": "50% 50%" },
+  { "image": "groupe-lundi-hiver-2026", "legende": "Lundi, 1er trimestre 2026", "cadrage": "40% 50%" },
+  { "image": "groupe-lundi-2025", "legende": "Lundi, 2e trimestre 2025", "cadrage": "50% 50%" },
+  { "image": "groupe-lundi-bassin-2024", "legende": "Lundi, 4e trimestre 2024", "cadrage": "55% 50%" }
+]

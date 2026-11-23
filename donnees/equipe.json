@@ -1,0 +1,6 @@
+[
+  { "cle": "jean-marc", "nom": "Jean-Marc Maurer", "role": "Instructeur suisse de natation, direction de l'école", "image": "equipe-jean-marc" },
+  { "cle": "daphne", "nom": "Daphné Bricod", "role": "Monitrice de natation J+S", "image": "equipe-daphne" },
+  { "cle": "dario", "nom": "Dario Olmo", "role": "Moniteur de natation J+S", "image": "equipe-dario" },
+  { "cle": "thomas", "nom": "Thomas Thévenet", "role": "Moniteur de natation J+S", "image": "equipe-thomas" }
+]

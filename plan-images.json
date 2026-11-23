@@ -1,0 +1,218 @@
+[
+ {
+  "source": "recu/logo-poisson.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "ESN, École Suisse de Natation de Puidoux-Chexbres"
+ },
+ {
+  "source": "recu/grok/accueil-bassin.png",
+  "nom": "accueil-bassin",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "page": "accueil",
+  "emplacement": "Accueil, ouverture : grand cadre à droite du titre",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "alt": "Bassin vu du dessus, reflets de lumière sur le carrelage et ligne d'eau rouge et blanc",
+  "consigne_scene": "Looking straight down into a calm indoor school swimming pool, clear turquoise water over small square white tiles, bright sunlight caustics dancing on the pool floor, a red-and-white lane rope crossing the upper part of the frame diagonally, a single yellow foam kickboard floating in the lower third, nobody in the water"
+ },
+ {
+  "source": "recu/grok/cours-planches.png",
+  "nom": "cours-planches",
+  "role": "ouverture",
+  "ratio": "21:9",
+  "source_mobile": "recu/grok/cours-planches-mobile.png",
+  "mobile": "4:5",
+  "page": "cours",
+  "emplacement": "Les cours, ouverture : bandeau sous le titre et le prix",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "alt": "Planches de natation colorées alignées au bord du bassin",
+  "consigne_scene": "A neat row of colorful foam kickboards and pull buoys lined up along the white tiled edge of an indoor pool, turquoise water just beside them, soft daylight from tall windows, seen from a low angle at the water line, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/ecole-sous-l-eau.png",
+  "nom": "ecole-sous-l-eau",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "source_mobile": "recu/grok/ecole-sous-l-eau-mobile.png",
+  "mobile": "9:16",
+  "page": "ecole",
+  "emplacement": "L'école, ouverture plein cadre, titre blanc en bas à gauche",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "zone_texte": "bas",
+  "alt": "Vue sous l'eau d'une ligne de bassin, rayons de lumière et petites bulles",
+  "consigne_scene": "Underwater view along an empty lane of an indoor pool, slanted sun rays through clear turquoise water, tiny bubbles rising, the dark lane line on the white tile floor leading into the distance, serene, the lower third slightly deeper blue and calm, nobody in the water"
+ },
+ {
+  "source": "recu/grok/inscription-sac.png",
+  "nom": "inscription-sac",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "page": "inscription",
+  "emplacement": "Inscription, ouverture : carte à côté du formulaire",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "alt": "Sac de piscine prêt sur un banc : bonnet, lunettes et serviette",
+  "consigne_scene": "A small swim bag ready on a light wooden bench beside an indoor pool, a bright red silicone swim cap, simple swim goggles and a neatly folded turquoise towel, white tiles and blurred turquoise water behind, soft window light, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/contact-bassin-soir.png",
+  "nom": "contact-bassin-soir",
+  "role": "ouverture",
+  "ratio": "4:3",
+  "page": "contact",
+  "emplacement": "Contact, ouverture : carte à côté du numéro de téléphone",
+  "priorite": "Indispensable",
+  "beaute": 4,
+  "alt": "Bassin calme en fin de journée, lumières reflétées dans l'eau",
+  "consigne_scene": "An empty indoor school pool at early evening, still turquoise water lit from below, warm ceiling lights reflected on the surface, tall windows showing a deep blue dusk sky, red-and-white lane ropes resting on the water, calm and welcoming, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/accueil-bonnets.png",
+  "nom": "accueil-bonnets",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "accueil",
+  "emplacement": "Accueil, section « Pour qui » : grande image à côté des chiffres",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "alt": "Bonnets de bain colorés et lunettes qui sèchent sur le bord carrelé",
+  "consigne_scene": "Colorful silicone swim caps in yellow, orange, red and blue and a few pairs of simple swim goggles drying in a loose row on a white tiled pool edge, drops of water on the tiles, turquoise water softly blurred behind, bright daylight, nobody in the frame"
+ },
+ {
+  "source": "recu/grok/page-404.png",
+  "nom": "page-404",
+  "role": "404",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "404",
+  "emplacement": "Page 404, image d'ouverture",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "alt": "Une planche de natation jaune qui flotte seule au milieu du bassin",
+  "consigne_scene": "A single yellow foam kickboard floating all alone in the very middle of a calm empty indoor pool, seen from above, turquoise water, red-and-white lane ropes around, a gentle touch of humour, nobody in the frame"
+ },
+ {
+  "source": "recu/lundi-2e-trim-2026.jpg",
+  "nom": "groupe-lundi-2026",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du lundi, deuxième trimestre 2026, au bord du bassin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/2e-tim-2025-jeudi.jpg",
+  "nom": "groupe-jeudi-2025",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du jeudi, deuxième trimestre 2025, dans l'eau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/2e-trim-2025-lundi.jpg",
+  "nom": "groupe-lundi-2025",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du lundi, deuxième trimestre 2025",
+  "beaute": 3
+ },
+ {
+  "source": "recu/lundi-1er-trim-2026-3.jpg",
+  "nom": "groupe-lundi-hiver-2026",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du lundi, premier trimestre 2026",
+  "beaute": 3
+ },
+ {
+  "source": "recu/4eme-trimestre-2025-jeudi-3.jpg",
+  "nom": "groupe-jeudi-automne-2025",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du jeudi, quatrième trimestre 2025",
+  "beaute": 3
+ },
+ {
+  "source": "recu/4e-trim-2024-lundi-4.jpg",
+  "nom": "groupe-lundi-automne-2024",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du lundi, quatrième trimestre 2024, dans l'eau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/1er-trimestre-2025-lundi-5.jpg",
+  "nom": "groupe-lundi-hiver-2025",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Groupe du lundi, premier trimestre 2025, avec un moniteur dans le bassin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/4e-trim-2024-lundi-2.jpg",
+  "nom": "groupe-lundi-bassin-2024",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Enfants dans le grand bassin, quatrième trimestre 2024",
+  "beaute": 3
+ },
+ {
+  "source": "recu/bienvenue-2.jpg",
+  "nom": "plongeon",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Un élève plonge depuis le bord, sous l'œil de ses camarades",
+  "beaute": 3
+ },
+ {
+  "source": "recu/dario-olmo.jpg",
+  "nom": "equipe-jean-marc",
+  "role": "portrait",
+  "ratio": "1:1",
+  "largeurs": [
+   320,
+   428
+  ],
+  "alt": "Jean-Marc Maurer",
+  "beaute": 2
+ },
+ {
+  "source": "recu/jean-marc-maurer.jpg",
+  "nom": "equipe-dario",
+  "role": "portrait",
+  "ratio": "1:1",
+  "largeurs": [
+   320,
+   428
+  ],
+  "alt": "Dario Olmo",
+  "beaute": 2
+ },
+ {
+  "source": "recu/dario-olmo-2.jpg",
+  "nom": "equipe-thomas",
+  "role": "portrait",
+  "ratio": "1:1",
+  "largeurs": [
+   320,
+   428
+  ],
+  "alt": "Thomas Thévenet",
+  "beaute": 2
+ },
+ {
+  "source": "recu/thomas-thevenet.jpg",
+  "nom": "equipe-daphne",
+  "role": "portrait",
+  "ratio": "1:1",
+  "largeurs": [
+   320,
+   428
+  ],
+  "alt": "Daphné Bricod",
+  "beaute": 2
+ }
+]

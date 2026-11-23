@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "ESN École Suisse de Natation de Puidoux-Chexbres",
+  "url": "https://esnatation-maquette.vercel.app/",
+  "telephone": "+41763914454",
+  "email": "info@esnatation.ch",
+  "foundingDate": "1995",
+  "address": { "@type": "PostalAddress", "addressLocality": "Puidoux", "addressRegion": "VD", "addressCountry": "CH" },
+  "description": { "fr": "Cours de natation en groupe pour enfants dès 4 ans révolus, 12 enfants au maximum, à la piscine du collège du Verrney à Puidoux. Cycles de 10 leçons de 45 minutes pendant les périodes scolaires, avec le soutien de Jeunesse+Sport." }
+}

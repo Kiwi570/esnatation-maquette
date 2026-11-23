@@ -1,0 +1,186 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "accueil-bassin-1280.webp",
+      "poids": 88529,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 573,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "contact-bassin-soir-1280.webp",
+      "poids": 82157,
+      "sujet": {
+        "x": 600,
+        "y": 143,
+        "l": 600,
+        "h": 458
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "cours",
+      "langue": "fr",
+      "fichier": "assets/partage/cours-fr.jpg",
+      "gabarit": "droite",
+      "image": "cours-planches-1280.webp",
+      "poids": 76631,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 627
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "ecole",
+      "langue": "fr",
+      "fichier": "assets/partage/ecole-fr.jpg",
+      "gabarit": "droite",
+      "image": "ecole-sous-l-eau-1280.webp",
+      "poids": 65523,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 596
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "inscription",
+      "langue": "fr",
+      "fichier": "assets/partage/inscription-fr.jpg",
+      "gabarit": "droite",
+      "image": "inscription-sac-1280.webp",
+      "poids": 68650,
+      "sujet": {
+        "x": 655,
+        "y": 230,
+        "l": 518,
+        "h": 307
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 47,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}
